@@ -4,7 +4,7 @@ FILE_DESCRIPTION(('for SolidWorks'),'2;1');
 FILE_NAME(
 '\\\\vmware-host\\Shared 
 Folders\\Documents\\workspace\\hardware\\LightPanels\\LightSquare\\
-64xAPA102\\3Dmodel\\64xAPA102x16.step','2015-07-22T02:58:12',(
+64xAPA102\\3Dmodel\\64xAPA102Cx16mm.step','2015-07-22T03:28:02',(
     'Chris Hamilton'),(''),'Open CASCADE STEP processor 6.6','Diptrace',
   'Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
