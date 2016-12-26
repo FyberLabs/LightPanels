@@ -1,0 +1,4262 @@
+ACCEL_ASCII "C:\users\chris\My Documents\Documents\workspace\hardware\FlexModules\LED\LightBand\8xAPA102\schematic\120xAPA102Cx8x15.dch"
+
+(asciiHeader
+  (asciiVersion 3 0)
+  (timeStamp 2006 1 27 14 31 18)
+  (program "DipTrace PCB" "18.00.2727")
+  (copyright "")
+  (fileAuthor "")
+  (headerString "")
+  (fileUnits mm)
+  (guidString "")
+)
+
+(library "Library_1"
+  (padStyleDef "cont0"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Oval) (shapeWidth 1) (shapeHeight 1.5) )
+    (padShape (layerNumRef 2) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Oval) (shapeWidth 1) (shapeHeight 1.5) )
+    (padShape (layerType NonSignal) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont1"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Oval) (shapeWidth 1) (shapeHeight 1.5) )
+    (padShape (layerNumRef 2) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Oval) (shapeWidth 1) (shapeHeight 1.5) )
+    (padShape (layerType NonSignal) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont2"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Oval) (shapeWidth 1) (shapeHeight 1.5) )
+    (padShape (layerNumRef 2) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Oval) (shapeWidth 1) (shapeHeight 1.5) )
+    (padShape (layerType NonSignal) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont3"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Oval) (shapeWidth 1) (shapeHeight 1.5) )
+    (padShape (layerNumRef 2) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Oval) (shapeWidth 1) (shapeHeight 1.5) )
+    (padShape (layerType NonSignal) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont4"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Oval) (shapeWidth 1) (shapeHeight 1.5) )
+    (padShape (layerNumRef 2) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Oval) (shapeWidth 1) (shapeHeight 1.5) )
+    (padShape (layerType NonSignal) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont5"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Oval) (shapeWidth 1) (shapeHeight 1.5) )
+    (padShape (layerNumRef 2) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Oval) (shapeWidth 1) (shapeHeight 1.5) )
+    (padShape (layerType NonSignal) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont6"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Oval) (shapeWidth 2) (shapeHeight 4.5) )
+    (padShape (layerNumRef 2) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Oval) (shapeWidth 2) (shapeHeight 4.5) )
+    (padShape (layerType NonSignal) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont7"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont8"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont9"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Oval) (shapeWidth 2) (shapeHeight 4.5) )
+    (padShape (layerNumRef 2) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Oval) (shapeWidth 2) (shapeHeight 4.5) )
+    (padShape (layerType NonSignal) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont10"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Oval) (shapeWidth 2) (shapeHeight 4.5) )
+    (padShape (layerNumRef 2) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Oval) (shapeWidth 2) (shapeHeight 4.5) )
+    (padShape (layerType NonSignal) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont11"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont12"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont13"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont14"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont15"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Oval) (shapeWidth 2) (shapeHeight 4.5) )
+    (padShape (layerNumRef 2) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Oval) (shapeWidth 2) (shapeHeight 4.5) )
+    (padShape (layerType NonSignal) (padShapeType Oval) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont16"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont17"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont18"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerNumRef 2) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerType NonSignal) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont19"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont20"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerNumRef 2) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerType NonSignal) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont21"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerNumRef 2) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerType NonSignal) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont22"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont23"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont24"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerNumRef 2) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerType NonSignal) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont25"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont26"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerNumRef 2) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerType NonSignal) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont27"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont28"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerNumRef 2) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerType NonSignal) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont29"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerNumRef 2) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerType NonSignal) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont30"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont31"
+    (holeDiam 0)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerNumRef 2) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+    (padShape (layerType Signal) (padShapeType Rect) (shapeWidth 2) (shapeHeight 1.25) )
+    (padShape (layerType NonSignal) (padShapeType Rect) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (padStyleDef "cont32"
+    (holeDiam 1)
+    (StartRange 1)
+    (EndRange 2)
+    (padShape (layerNumRef 1) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerNumRef 2) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType Signal) (padShapeType Ellipse) (shapeWidth 2) (shapeHeight 2) )
+    (padShape (layerType NonSignal) (padShapeType Ellipse) (shapeWidth 0) (shapeHeight 0) )
+  )
+  (textStyleDef "(Default)"
+    (font
+      (fontType Stroke)
+      (fontFamily SanSerif)
+      (fontFace "Quality")
+      (fontHeight 2.54)
+      (strokeWidth 0.254)
+    )
+  )
+  (textStyleDef "textstyle0"
+    (font
+      (fontType Stroke)
+      (fontFamily SanSerif)
+      (fontFace "Quality")
+      (fontHeight 2)
+      (strokeWidth 0.2353)
+    )
+    (textStyleAllowTType False)
+    (textStyleDisplayTType False)
+  )
+  (textStyleDef "textstyle1"
+    (font
+      (fontType Stroke)
+      (fontFamily SanSerif)
+      (fontFace "Quality")
+      (fontHeight 16)
+      (strokeWidth 1.8824)
+    )
+    (textStyleAllowTType False)
+    (textStyleDisplayTType False)
+  )
+  (patternDefExtended "APA102C_0"
+    (originalName "APA102C")
+    (patternGraphicsNameRef "Primary")
+
+    (patternGraphicsDef
+      (patternGraphicsNameDef "Primary")
+      (multiLayer
+        (pad (padNum 1) (padStyleRef "cont0") (pt -1.4375 -2.5) (defaultPinDes "1") )
+        (pad (padNum 2) (padStyleRef "cont1") (pt 0.4125 -2.5) (defaultPinDes "2") )
+        (pad (padNum 3) (padStyleRef "cont2") (pt 2.2625 -2.5) (defaultPinDes "3") )
+        (pad (padNum 4) (padStyleRef "cont3") (pt 2.2625 2.5) (defaultPinDes "6") )
+        (pad (padNum 5) (padStyleRef "cont4") (pt 0.4125 2.5) (defaultPinDes "5") )
+        (pad (padNum 6) (padStyleRef "cont5") (pt -1.4375 2.5) (defaultPinDes "4") )
+      )
+      (layerContents  (layerNumRef  6)
+        (line (pt -2.0877 2.6) (pt -2.0877 0.6) (width 0.254) )
+        (line (pt 2.9125 2.6) (pt 2.9125 0.6) (width 0.254) )
+        (line (pt 2.9125 -0.6) (pt 2.9125 -2.6) (width 0.254) )
+        (line (pt -2.0877 -0.6) (pt -2.0877 -2.6) (width 0.254) )
+        (pcbPoly
+         (pt -1.9875 -2.4628)
+         (pt -1.9945 -2.3782)
+         (pt -2.0154 -2.2961)
+         (pt -2.0495 -2.2191)
+         (pt -2.0957 -2.1495)
+         (pt -2.1527 -2.0894)
+         (pt -2.2187 -2.0407)
+         (pt -2.2918 -2.0047)
+         (pt -2.3697 -1.9828)
+         (pt -2.45 -1.9753)
+         (pt -2.5303 -1.9828)
+         (pt -2.6082 -2.0047)
+         (pt -2.6812 -2.0407)
+         (pt -2.7473 -2.0894)
+         (pt -2.8043 -2.1495)
+         (pt -2.8505 -2.2191)
+         (pt -2.8846 -2.2961)
+         (pt -2.9055 -2.3782)
+         (pt -2.9125 -2.4628)
+         (pt -2.9055 -2.5475)
+         (pt -2.8846 -2.6296)
+         (pt -2.8505 -2.7066)
+         (pt -2.8043 -2.7762)
+         (pt -2.7473 -2.8363)
+         (pt -2.6812 -2.885)
+         (pt -2.6082 -2.921)
+         (pt -2.5303 -2.9429)
+         (pt -2.45 -2.9503)
+         (pt -2.3697 -2.9429)
+         (pt -2.2918 -2.921)
+         (pt -2.2187 -2.885)
+         (pt -2.1527 -2.8363)
+         (pt -2.0957 -2.7762)
+         (pt -2.0495 -2.7066)
+         (pt -2.0154 -2.6296)
+         (pt -1.9945 -2.5475)
+         (pt -1.9875 -2.4628)
+        )
+        (attr "RefDes" "" (pt -2.9125 3.25) (isVisible True) (textStyleRef "(Default)") )
+        (attr "Type" "" (pt -2.9125 -5.75) (isVisible False) (textStyleRef "(Default)") )
+      )
+    )
+  )
+  (patternDefExtended "APA102C + input pads 16mm_1"
+    (originalName "APA102C + input pads 16mm")
+    (patternGraphicsNameRef "Primary")
+
+    (patternGraphicsDef
+      (patternGraphicsNameDef "Primary")
+      (multiLayer
+        (pad (padNum 1) (padStyleRef "cont0") (pt -1.85 1.8071) (defaultPinDes "1") )
+        (pad (padNum 2) (padStyleRef "cont1") (pt 0 1.8071) (defaultPinDes "2") )
+        (pad (padNum 3) (padStyleRef "cont2") (pt 1.85 1.8071) (defaultPinDes "3") )
+        (pad (padNum 4) (padStyleRef "cont3") (pt 1.85 6.8071) (defaultPinDes "6") )
+        (pad (padNum 5) (padStyleRef "cont4") (pt 0 6.8071) (defaultPinDes "5") )
+        (pad (padNum 6) (padStyleRef "cont5") (pt -1.85 6.8071) (defaultPinDes "4") )
+        (pad (padNum 7) (padStyleRef "cont6") (pt 1.27 -3.6929) (defaultPinDes "14") )
+        (pad (padNum 8) (padStyleRef "cont7") (pt 1.27 -2.4429) (defaultPinDes "10") )
+        (pad (padNum 9) (padStyleRef "cont8") (pt 1.27 -4.9429) (defaultPinDes "18") )
+        (pad (padNum 10) (padStyleRef "cont9") (pt 3.81 -3.6929) (defaultPinDes "15") )
+        (pad (padNum 11) (padStyleRef "cont10") (pt -1.27 -3.6929) (defaultPinDes "13") )
+        (pad (padNum 12) (padStyleRef "cont11") (pt -1.27 -2.4429) (defaultPinDes "9") )
+        (pad (padNum 13) (padStyleRef "cont12") (pt -1.27 -4.9429) (defaultPinDes "17") )
+        (pad (padNum 14) (padStyleRef "cont13") (pt 3.81 -2.4429) (defaultPinDes "11") )
+        (pad (padNum 15) (padStyleRef "cont14") (pt 3.81 -4.9429) (defaultPinDes "19") )
+        (pad (padNum 16) (padStyleRef "cont15") (pt -3.81 -3.6929) (defaultPinDes "12") )
+        (pad (padNum 17) (padStyleRef "cont16") (pt -3.81 -2.4429) (defaultPinDes "8") )
+        (pad (padNum 18) (padStyleRef "cont17") (pt -3.81 -4.9429) (defaultPinDes "16") )
+      )
+      (layerContents  (layerNumRef  6)
+        (line (pt -2.5002 6.9072) (pt -2.5002 4.9061) (width 0.254) )
+        (line (pt 2.5002 6.9072) (pt 2.5002 4.9061) (width 0.254) )
+        (line (pt 2.5002 3.7075) (pt 2.5002 1.7064) (width 0.254) )
+        (line (pt -2.5002 3.7075) (pt -2.5002 1.7064) (width 0.254) )
+        (pcbPoly
+         (pt -2.4002 1.8439)
+         (pt -2.4072 1.9287)
+         (pt -2.4281 2.0109)
+         (pt -2.4622 2.088)
+         (pt -2.5084 2.1577)
+         (pt -2.5655 2.2179)
+         (pt -2.6316 2.2667)
+         (pt -2.7047 2.3027)
+         (pt -2.7826 2.3247)
+         (pt -2.8629 2.3321)
+         (pt -2.9433 2.3247)
+         (pt -3.0212 2.3027)
+         (pt -3.0943 2.2667)
+         (pt -3.1603 2.2179)
+         (pt -3.2174 2.1577)
+         (pt -3.2636 2.088)
+         (pt -3.2977 2.0109)
+         (pt -3.3186 1.9287)
+         (pt -3.3256 1.8439)
+         (pt -3.3186 1.7592)
+         (pt -3.2977 1.677)
+         (pt -3.2636 1.5998)
+         (pt -3.2174 1.5301)
+         (pt -3.1603 1.47)
+         (pt -3.0943 1.4211)
+         (pt -3.0212 1.3852)
+         (pt -2.9433 1.3632)
+         (pt -2.8629 1.3557)
+         (pt -2.7826 1.3632)
+         (pt -2.7047 1.3852)
+         (pt -2.6316 1.4211)
+         (pt -2.5655 1.47)
+         (pt -2.5084 1.5301)
+         (pt -2.4622 1.5998)
+         (pt -2.4281 1.677)
+         (pt -2.4072 1.7592)
+         (pt -2.4002 1.8439)
+        )
+        (text (pt 3.7734 -0.7663) "Vd" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8326 1.1819) )
+        (text (pt -3.8206 -0.8411) "Vs" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8326 1.1441) )
+        (text (pt -1.1953 -6.917) "Do" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8326 1.1441) )
+        (text (pt -1.2848 -0.8902) "Di" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8326 0.7164) )
+        (text (pt 1.3348 -0.866) "Ci" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8326 0.7557) )
+        (text (pt 1.3482 -6.9412) "Co" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8326 1.1834) )
+        (text (pt 3.8235 -6.9661) "Vd" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8326 1.1819) )
+        (text (pt -3.8215 -6.9155) "Vs" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8326 1.1441) )
+        (attr "RefDes" "" (pt -4.81 7.5571) (isVisible True) (textStyleRef "(Default)") )
+        (attr "Type" "" (pt -4.81 -10.0571) (isVisible False) (textStyleRef "(Default)") )
+      )
+    )
+  )
+  (patternDefExtended "LED halfpads in_2"
+    (originalName "LED halfpads in")
+    (patternGraphicsNameRef "Primary")
+
+    (patternGraphicsDef
+      (patternGraphicsNameDef "Primary")
+      (multiLayer
+        (pad (padNum 1) (padStyleRef "cont18") (pt 1.27 -1.1339) (defaultPinDes "7") )
+        (pad (padNum 2) (padStyleRef "cont19") (pt 1.27 -0.5089) (defaultPinDes "3") )
+        (pad (padNum 3) (padStyleRef "cont20") (pt 3.81 -1.1339) (defaultPinDes "8") )
+        (pad (padNum 4) (padStyleRef "cont21") (pt -1.27 -1.1339) (defaultPinDes "6") )
+        (pad (padNum 5) (padStyleRef "cont22") (pt -1.27 -0.5089) (defaultPinDes "2") )
+        (pad (padNum 6) (padStyleRef "cont23") (pt 3.81 -0.5089) (defaultPinDes "4") )
+        (pad (padNum 7) (padStyleRef "cont24") (pt -3.81 -1.1339) (defaultPinDes "5") )
+        (pad (padNum 8) (padStyleRef "cont25") (pt -3.81 -0.5089) (defaultPinDes "1") )
+      )
+      (layerContents  (layerNumRef  6)
+        (text (pt 3.7734 1.1679) "Vd" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8326 1.182) )
+        (text (pt -3.8206 1.0931) "Vs" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8326 1.1436) )
+        (text (pt -1.2848 1.0432) "Di" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8326 0.7166) )
+        (text (pt 1.3348 1.068) "Ci" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8326 0.7556) )
+        (attr "RefDes" "" (pt -4.81 1.7589) (isVisible True) (textStyleRef "(Default)") )
+        (attr "Type" "" (pt -4.81 -4.2589) (isVisible False) (textStyleRef "(Default)") )
+      )
+    )
+  )
+  (patternDefExtended "LED halfpads out_3"
+    (originalName "LED halfpads out")
+    (patternGraphicsNameRef "Primary")
+
+    (patternGraphicsDef
+      (patternGraphicsNameDef "Primary")
+      (multiLayer
+        (pad (padNum 1) (padStyleRef "cont26") (pt 1.2427 1.3071) (defaultPinDes "3") )
+        (pad (padNum 2) (padStyleRef "cont27") (pt 1.2427 0.6821) (defaultPinDes "7") )
+        (pad (padNum 3) (padStyleRef "cont28") (pt 3.7827 1.3071) (defaultPinDes "4") )
+        (pad (padNum 4) (padStyleRef "cont29") (pt -1.2973 1.3071) (defaultPinDes "2") )
+        (pad (padNum 5) (padStyleRef "cont30") (pt -1.2973 0.6821) (defaultPinDes "6") )
+        (pad (padNum 6) (padStyleRef "cont16") (pt 3.7827 0.6821) (defaultPinDes "8") )
+        (pad (padNum 7) (padStyleRef "cont31") (pt -3.8373 1.3071) (defaultPinDes "1") )
+        (pad (padNum 8) (padStyleRef "cont32") (pt -3.8373 0.6821) (defaultPinDes "5") )
+      )
+      (layerContents  (layerNumRef  6)
+        (text (pt -1.2229 -1.291) "Do" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8324 1.1446) )
+        (text (pt 1.3206 -1.3158) "Co" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8324 1.1832) )
+        (text (pt 3.9211 -1.3411) "Vd" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8324 1.1821) )
+        (text (pt -3.8485 -1.2908) "Vs" (textStyleRef "(Default)") (rotation 90.0) (justify Center) (extent 1.8324 1.1434) )
+        (attr "RefDes" "" (pt -4.8373 1.9321) (isVisible True) (textStyleRef "(Default)") )
+        (attr "Type" "" (pt -4.8373 -4.4321) (isVisible False) (textStyleRef "(Default)") )
+      )
+    )
+  )
+  (compDef "APA102C_0"
+    (originalName "APA102C")
+    (compHeader
+      (sourceLibrary "")
+      (numPins 6)
+      (numParts 1)
+      (alts (ieeeAlt True) (deMorganAlt False))
+      (refDesPrefix "U")
+    )
+    (compPin "1" (pinName "1") (partNum 1) (symPinNum 1) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "2" (pinName "2") (partNum 1) (symPinNum 2) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "3" (pinName "3") (partNum 1) (symPinNum 3) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "6" (pinName "6") (partNum 1) (symPinNum 4) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "5" (pinName "5") (partNum 1) (symPinNum 5) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "4" (pinName "4") (partNum 1) (symPinNum 6) (gateEq 1) (pinEq 0) (pinType Input) )
+    (attachedPattern (patternNum 1) (patternName "APA102C")
+      (numPads 6)
+      (padPinMap
+        (padNum 1) (compPinRef "1")
+        (padNum 2) (compPinRef "2")
+        (padNum 3) (compPinRef "3")
+        (padNum 4) (compPinRef "6")
+        (padNum 5) (compPinRef "5")
+        (padNum 6) (compPinRef "4")
+      )
+    )
+  )
+  (compDef "APA102C + input pads 16mm_1"
+    (originalName "APA102C + input pads 16mm")
+    (compHeader
+      (sourceLibrary "")
+      (numPins 18)
+      (numParts 1)
+      (alts (ieeeAlt True) (deMorganAlt False))
+      (refDesPrefix "U")
+    )
+    (compPin "1" (pinName "1") (partNum 1) (symPinNum 1) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "2" (pinName "2") (partNum 1) (symPinNum 2) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "3" (pinName "3") (partNum 1) (symPinNum 3) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "6" (pinName "6") (partNum 1) (symPinNum 4) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "5" (pinName "5") (partNum 1) (symPinNum 5) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "4" (pinName "4") (partNum 1) (symPinNum 6) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "14" (pinName "14") (partNum 1) (symPinNum 7) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "10" (pinName "10") (partNum 1) (symPinNum 8) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "18" (pinName "18") (partNum 1) (symPinNum 9) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "15" (pinName "15") (partNum 1) (symPinNum 10) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "13" (pinName "13") (partNum 1) (symPinNum 11) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "9" (pinName "9") (partNum 1) (symPinNum 12) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "17" (pinName "17") (partNum 1) (symPinNum 13) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "11" (pinName "11") (partNum 1) (symPinNum 14) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "19" (pinName "19") (partNum 1) (symPinNum 15) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "12" (pinName "12") (partNum 1) (symPinNum 16) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "8" (pinName "8") (partNum 1) (symPinNum 17) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "16" (pinName "16") (partNum 1) (symPinNum 18) (gateEq 1) (pinEq 0) (pinType Input) )
+    (attachedPattern (patternNum 1) (patternName "APA102C + input pads 16mm")
+      (numPads 18)
+      (padPinMap
+        (padNum 1) (compPinRef "1")
+        (padNum 2) (compPinRef "2")
+        (padNum 3) (compPinRef "3")
+        (padNum 4) (compPinRef "6")
+        (padNum 5) (compPinRef "5")
+        (padNum 6) (compPinRef "4")
+        (padNum 7) (compPinRef "14")
+        (padNum 8) (compPinRef "10")
+        (padNum 9) (compPinRef "18")
+        (padNum 10) (compPinRef "15")
+        (padNum 11) (compPinRef "13")
+        (padNum 12) (compPinRef "9")
+        (padNum 13) (compPinRef "17")
+        (padNum 14) (compPinRef "11")
+        (padNum 15) (compPinRef "19")
+        (padNum 16) (compPinRef "12")
+        (padNum 17) (compPinRef "8")
+        (padNum 18) (compPinRef "16")
+      )
+    )
+  )
+  (compDef "LED halfpads in_2"
+    (originalName "LED halfpads in")
+    (compHeader
+      (sourceLibrary "")
+      (numPins 8)
+      (numParts 1)
+      (alts (ieeeAlt True) (deMorganAlt False))
+      (refDesPrefix "U")
+    )
+    (compPin "7" (pinName "7") (partNum 1) (symPinNum 1) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "3" (pinName "3") (partNum 1) (symPinNum 2) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "8" (pinName "8") (partNum 1) (symPinNum 3) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "6" (pinName "6") (partNum 1) (symPinNum 4) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "2" (pinName "2") (partNum 1) (symPinNum 5) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "4" (pinName "4") (partNum 1) (symPinNum 6) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "5" (pinName "5") (partNum 1) (symPinNum 7) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "1" (pinName "1") (partNum 1) (symPinNum 8) (gateEq 1) (pinEq 0) (pinType Input) )
+    (attachedPattern (patternNum 1) (patternName "LED halfpads in")
+      (numPads 8)
+      (padPinMap
+        (padNum 1) (compPinRef "7")
+        (padNum 2) (compPinRef "3")
+        (padNum 3) (compPinRef "8")
+        (padNum 4) (compPinRef "6")
+        (padNum 5) (compPinRef "2")
+        (padNum 6) (compPinRef "4")
+        (padNum 7) (compPinRef "5")
+        (padNum 8) (compPinRef "1")
+      )
+    )
+  )
+  (compDef "LED halfpads out_3"
+    (originalName "LED halfpads out")
+    (compHeader
+      (sourceLibrary "")
+      (numPins 8)
+      (numParts 1)
+      (alts (ieeeAlt True) (deMorganAlt False))
+      (refDesPrefix "U")
+    )
+    (compPin "3" (pinName "3") (partNum 1) (symPinNum 1) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "7" (pinName "7") (partNum 1) (symPinNum 2) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "4" (pinName "4") (partNum 1) (symPinNum 3) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "2" (pinName "2") (partNum 1) (symPinNum 4) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "6" (pinName "6") (partNum 1) (symPinNum 5) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "8" (pinName "8") (partNum 1) (symPinNum 6) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "1" (pinName "1") (partNum 1) (symPinNum 7) (gateEq 1) (pinEq 0) (pinType Input) )
+    (compPin "5" (pinName "5") (partNum 1) (symPinNum 8) (gateEq 1) (pinEq 0) (pinType Input) )
+    (attachedPattern (patternNum 1) (patternName "LED halfpads out")
+      (numPads 8)
+      (padPinMap
+        (padNum 1) (compPinRef "3")
+        (padNum 2) (compPinRef "7")
+        (padNum 3) (compPinRef "4")
+        (padNum 4) (compPinRef "2")
+        (padNum 5) (compPinRef "6")
+        (padNum 6) (compPinRef "8")
+        (padNum 7) (compPinRef "1")
+        (padNum 8) (compPinRef "5")
+      )
+    )
+  )
+)
+(netlist "Netlist_1"
+
+  (compInst "U1"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U2"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U3"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U4"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U5"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U6"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U7"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U8"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U9"
+    (compRef "APA102C + input pads 16mm_1")
+    (originalName "APA102C + input pads 16mm")
+  )
+
+  (compInst "U10"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U11"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U12"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U13"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U14"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U15"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U16"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U17"
+    (compRef "APA102C + input pads 16mm_1")
+    (originalName "APA102C + input pads 16mm")
+  )
+
+  (compInst "U18"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U19"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U20"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U21"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U22"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U23"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U24"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U25"
+    (compRef "APA102C + input pads 16mm_1")
+    (originalName "APA102C + input pads 16mm")
+  )
+
+  (compInst "U26"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U27"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U28"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U29"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U30"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U31"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U32"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U33"
+    (compRef "APA102C + input pads 16mm_1")
+    (originalName "APA102C + input pads 16mm")
+  )
+
+  (compInst "U34"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U35"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U36"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U37"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U38"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U39"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U40"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U41"
+    (compRef "APA102C + input pads 16mm_1")
+    (originalName "APA102C + input pads 16mm")
+  )
+
+  (compInst "U42"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U43"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U44"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U45"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U46"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U47"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U48"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U49"
+    (compRef "APA102C + input pads 16mm_1")
+    (originalName "APA102C + input pads 16mm")
+  )
+
+  (compInst "U50"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U51"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U52"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U53"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U54"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U55"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U56"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U57"
+    (compRef "APA102C + input pads 16mm_1")
+    (originalName "APA102C + input pads 16mm")
+  )
+
+  (compInst "U58"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U59"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U60"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U61"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U62"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U63"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U64"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U65"
+    (compRef "APA102C + input pads 16mm_1")
+    (originalName "APA102C + input pads 16mm")
+  )
+
+  (compInst "U66"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U67"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U68"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U69"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U70"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U71"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U72"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U73"
+    (compRef "APA102C + input pads 16mm_1")
+    (originalName "APA102C + input pads 16mm")
+  )
+
+  (compInst "U74"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U75"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U76"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U77"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U78"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U79"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U80"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U81"
+    (compRef "APA102C + input pads 16mm_1")
+    (originalName "APA102C + input pads 16mm")
+  )
+
+  (compInst "U82"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U83"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U84"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U85"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U86"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U87"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U88"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U89"
+    (compRef "APA102C + input pads 16mm_1")
+    (originalName "APA102C + input pads 16mm")
+  )
+
+  (compInst "U90"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U91"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U92"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U93"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U94"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U95"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U96"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U97"
+    (compRef "APA102C + input pads 16mm_1")
+    (originalName "APA102C + input pads 16mm")
+  )
+
+  (compInst "U98"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U99"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U100"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U101"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U102"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U103"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U104"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U105"
+    (compRef "APA102C + input pads 16mm_1")
+    (originalName "APA102C + input pads 16mm")
+  )
+
+  (compInst "U106"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U107"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U108"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U109"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U110"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U111"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "U112"
+    (compRef "APA102C_0")
+    (originalName "APA102C")
+  )
+
+  (compInst "IN"
+    (compRef "LED halfpads in_2")
+    (originalName "LED halfpads in")
+  )
+
+  (compInst "OUT"
+    (compRef "LED halfpads out_3")
+    (originalName "LED halfpads out")
+  )
+
+  (net "GND"
+    (node "U1" "3")
+    (node "U2" "3")
+    (node "U3" "3")
+    (node "U4" "3")
+    (node "U5" "3")
+    (node "U6" "3")
+    (node "U7" "3")
+    (node "U8" "3")
+    (node "U9" "3")
+    (node "U9" "12")
+    (node "U9" "8")
+    (node "U9" "16")
+    (node "U10" "3")
+    (node "U11" "3")
+    (node "U12" "3")
+    (node "U13" "3")
+    (node "U14" "3")
+    (node "U15" "3")
+    (node "U16" "3")
+    (node "U17" "3")
+    (node "U17" "12")
+    (node "U17" "8")
+    (node "U17" "16")
+    (node "U18" "3")
+    (node "U19" "3")
+    (node "U20" "3")
+    (node "U21" "3")
+    (node "U22" "3")
+    (node "U23" "3")
+    (node "U24" "3")
+    (node "U25" "3")
+    (node "U25" "12")
+    (node "U25" "8")
+    (node "U25" "16")
+    (node "U26" "3")
+    (node "U27" "3")
+    (node "U28" "3")
+    (node "U29" "3")
+    (node "U30" "3")
+    (node "U31" "3")
+    (node "U32" "3")
+    (node "U33" "3")
+    (node "U33" "12")
+    (node "U33" "8")
+    (node "U33" "16")
+    (node "U34" "3")
+    (node "U35" "3")
+    (node "U36" "3")
+    (node "U37" "3")
+    (node "U38" "3")
+    (node "U39" "3")
+    (node "U40" "3")
+    (node "U41" "3")
+    (node "U41" "12")
+    (node "U41" "8")
+    (node "U41" "16")
+    (node "U42" "3")
+    (node "U43" "3")
+    (node "U44" "3")
+    (node "U45" "3")
+    (node "U46" "3")
+    (node "U47" "3")
+    (node "U48" "3")
+    (node "U49" "3")
+    (node "U49" "12")
+    (node "U49" "8")
+    (node "U49" "16")
+    (node "U50" "3")
+    (node "U51" "3")
+    (node "U52" "3")
+    (node "U53" "3")
+    (node "U54" "3")
+    (node "U55" "3")
+    (node "U56" "3")
+    (node "U57" "3")
+    (node "U57" "12")
+    (node "U57" "8")
+    (node "U57" "16")
+    (node "U58" "3")
+    (node "U59" "3")
+    (node "U60" "3")
+    (node "U61" "3")
+    (node "U62" "3")
+    (node "U63" "3")
+    (node "U64" "3")
+    (node "U65" "3")
+    (node "U65" "12")
+    (node "U65" "8")
+    (node "U65" "16")
+    (node "U66" "3")
+    (node "U67" "3")
+    (node "U68" "3")
+    (node "U69" "3")
+    (node "U70" "3")
+    (node "U71" "3")
+    (node "U72" "3")
+    (node "U73" "3")
+    (node "U73" "12")
+    (node "U73" "8")
+    (node "U73" "16")
+    (node "U74" "3")
+    (node "U75" "3")
+    (node "U76" "3")
+    (node "U77" "3")
+    (node "U78" "3")
+    (node "U79" "3")
+    (node "U80" "3")
+    (node "U81" "3")
+    (node "U81" "12")
+    (node "U81" "8")
+    (node "U81" "16")
+    (node "U82" "3")
+    (node "U83" "3")
+    (node "U84" "3")
+    (node "U85" "3")
+    (node "U86" "3")
+    (node "U87" "3")
+    (node "U88" "3")
+    (node "U89" "3")
+    (node "U89" "12")
+    (node "U89" "8")
+    (node "U89" "16")
+    (node "U90" "3")
+    (node "U91" "3")
+    (node "U92" "3")
+    (node "U93" "3")
+    (node "U94" "3")
+    (node "U95" "3")
+    (node "U96" "3")
+    (node "U97" "3")
+    (node "U97" "12")
+    (node "U97" "8")
+    (node "U97" "16")
+    (node "U98" "3")
+    (node "U99" "3")
+    (node "U100" "3")
+    (node "U101" "3")
+    (node "U102" "3")
+    (node "U103" "3")
+    (node "U104" "3")
+    (node "U105" "3")
+    (node "U105" "12")
+    (node "U105" "8")
+    (node "U105" "16")
+    (node "U106" "3")
+    (node "U107" "3")
+    (node "U108" "3")
+    (node "U109" "3")
+    (node "U110" "3")
+    (node "U111" "3")
+    (node "U112" "3")
+    (node "IN" "5")
+    (node "IN" "1")
+    (node "OUT" "1")
+    (node "OUT" "5")
+  )
+
+  (net "Net 0"
+    (node "U1" "4")
+    (node "U2" "1")
+  )
+
+  (net "Net 1"
+    (node "U1" "5")
+    (node "U2" "2")
+  )
+
+  (net "Net 2"
+    (node "U64" "4")
+    (node "U65" "1")
+    (node "U65" "13")
+    (node "U65" "9")
+    (node "U65" "17")
+  )
+
+  (net "Net 3"
+    (node "U64" "5")
+    (node "U65" "2")
+    (node "U65" "14")
+    (node "U65" "10")
+    (node "U65" "18")
+  )
+
+  (net "Net 4"
+    (node "U2" "4")
+    (node "U3" "1")
+  )
+
+  (net "Net 5"
+    (node "U2" "5")
+    (node "U3" "2")
+  )
+
+  (net "Net 6"
+    (node "U3" "4")
+    (node "U4" "1")
+  )
+
+  (net "Net 7"
+    (node "U3" "5")
+    (node "U4" "2")
+  )
+
+  (net "Net 8"
+    (node "U4" "4")
+    (node "U5" "1")
+  )
+
+  (net "Net 9"
+    (node "U4" "5")
+    (node "U5" "2")
+  )
+
+  (net "Net 10"
+    (node "U5" "4")
+    (node "U6" "1")
+  )
+
+  (net "Net 11"
+    (node "U5" "5")
+    (node "U6" "2")
+  )
+
+  (net "Net 12"
+    (node "U6" "4")
+    (node "U7" "1")
+  )
+
+  (net "Net 13"
+    (node "U6" "5")
+    (node "U7" "2")
+  )
+
+  (net "Net 14"
+    (node "U7" "4")
+    (node "U8" "1")
+  )
+
+  (net "Net 15"
+    (node "U7" "5")
+    (node "U8" "2")
+  )
+
+  (net "Net 16"
+    (node "U9" "4")
+    (node "U10" "1")
+  )
+
+  (net "Net 17"
+    (node "U9" "5")
+    (node "U10" "2")
+  )
+
+  (net "Net 18"
+    (node "U48" "4")
+    (node "U49" "1")
+    (node "U49" "13")
+    (node "U49" "9")
+    (node "U49" "17")
+  )
+
+  (net "Net 19"
+    (node "U48" "5")
+    (node "U49" "2")
+    (node "U49" "14")
+    (node "U49" "10")
+    (node "U49" "18")
+  )
+
+  (net "Net 20"
+    (node "U10" "4")
+    (node "U11" "1")
+  )
+
+  (net "Net 21"
+    (node "U10" "5")
+    (node "U11" "2")
+  )
+
+  (net "Net 22"
+    (node "U11" "4")
+    (node "U12" "1")
+  )
+
+  (net "Net 23"
+    (node "U11" "5")
+    (node "U12" "2")
+  )
+
+  (net "Net 24"
+    (node "U12" "4")
+    (node "U13" "1")
+  )
+
+  (net "Net 25"
+    (node "U12" "5")
+    (node "U13" "2")
+  )
+
+  (net "Net 26"
+    (node "U13" "4")
+    (node "U14" "1")
+  )
+
+  (net "Net 27"
+    (node "U13" "5")
+    (node "U14" "2")
+  )
+
+  (net "Net 28"
+    (node "U14" "4")
+    (node "U15" "1")
+  )
+
+  (net "Net 29"
+    (node "U14" "5")
+    (node "U15" "2")
+  )
+
+  (net "Net 30"
+    (node "U15" "4")
+    (node "U16" "1")
+  )
+
+  (net "Net 31"
+    (node "U15" "5")
+    (node "U16" "2")
+  )
+
+  (net "Net 32"
+    (node "U17" "4")
+    (node "U18" "1")
+  )
+
+  (net "Net 33"
+    (node "U17" "5")
+    (node "U18" "2")
+  )
+
+  (net "Net 34"
+    (node "U1" "6")
+    (node "U2" "6")
+    (node "U3" "6")
+    (node "U4" "6")
+    (node "U5" "6")
+    (node "U6" "6")
+    (node "U7" "6")
+    (node "U8" "6")
+    (node "U9" "6")
+    (node "U9" "15")
+    (node "U9" "11")
+    (node "U9" "19")
+    (node "U10" "6")
+    (node "U11" "6")
+    (node "U12" "6")
+    (node "U13" "6")
+    (node "U14" "6")
+    (node "U15" "6")
+    (node "U16" "6")
+    (node "U17" "6")
+    (node "U17" "15")
+    (node "U17" "11")
+    (node "U17" "19")
+    (node "U18" "6")
+    (node "U19" "6")
+    (node "U20" "6")
+    (node "U21" "6")
+    (node "U22" "6")
+    (node "U23" "6")
+    (node "U24" "6")
+    (node "U25" "6")
+    (node "U25" "15")
+    (node "U25" "11")
+    (node "U25" "19")
+    (node "U26" "6")
+    (node "U27" "6")
+    (node "U28" "6")
+    (node "U29" "6")
+    (node "U30" "6")
+    (node "U31" "6")
+    (node "U32" "6")
+    (node "U33" "6")
+    (node "U33" "15")
+    (node "U33" "11")
+    (node "U33" "19")
+    (node "U34" "6")
+    (node "U35" "6")
+    (node "U36" "6")
+    (node "U37" "6")
+    (node "U38" "6")
+    (node "U39" "6")
+    (node "U40" "6")
+    (node "U41" "6")
+    (node "U41" "15")
+    (node "U41" "11")
+    (node "U41" "19")
+    (node "U42" "6")
+    (node "U43" "6")
+    (node "U44" "6")
+    (node "U45" "6")
+    (node "U46" "6")
+    (node "U47" "6")
+    (node "U48" "6")
+    (node "U49" "6")
+    (node "U49" "15")
+    (node "U49" "11")
+    (node "U49" "19")
+    (node "U50" "6")
+    (node "U51" "6")
+    (node "U52" "6")
+    (node "U53" "6")
+    (node "U54" "6")
+    (node "U55" "6")
+    (node "U56" "6")
+    (node "U57" "6")
+    (node "U57" "15")
+    (node "U57" "11")
+    (node "U57" "19")
+    (node "U58" "6")
+    (node "U59" "6")
+    (node "U60" "6")
+    (node "U61" "6")
+    (node "U62" "6")
+    (node "U63" "6")
+    (node "U64" "6")
+    (node "IN" "8")
+    (node "IN" "4")
+    (node "OUT" "4")
+    (node "OUT" "8")
+  )
+
+  (net "Net 35"
+    (node "U65" "4")
+    (node "U66" "1")
+  )
+
+  (net "Net 36"
+    (node "U18" "4")
+    (node "U19" "1")
+  )
+
+  (net "Net 37"
+    (node "U18" "5")
+    (node "U19" "2")
+  )
+
+  (net "Net 38"
+    (node "U19" "4")
+    (node "U20" "1")
+  )
+
+  (net "Net 39"
+    (node "U19" "5")
+    (node "U20" "2")
+  )
+
+  (net "Net 40"
+    (node "U20" "4")
+    (node "U21" "1")
+  )
+
+  (net "Net 41"
+    (node "U20" "5")
+    (node "U21" "2")
+  )
+
+  (net "Net 42"
+    (node "U21" "4")
+    (node "U22" "1")
+  )
+
+  (net "Net 43"
+    (node "U21" "5")
+    (node "U22" "2")
+  )
+
+  (net "Net 44"
+    (node "U22" "4")
+    (node "U23" "1")
+  )
+
+  (net "Net 45"
+    (node "U22" "5")
+    (node "U23" "2")
+  )
+
+  (net "Net 46"
+    (node "U23" "4")
+    (node "U24" "1")
+  )
+
+  (net "Net 47"
+    (node "U23" "5")
+    (node "U24" "2")
+  )
+
+  (net "Net 48"
+    (node "U25" "4")
+    (node "U26" "1")
+  )
+
+  (net "Net 49"
+    (node "U25" "5")
+    (node "U26" "2")
+  )
+
+  (net "Net 50"
+    (node "U65" "5")
+    (node "U66" "2")
+  )
+
+  (net "Net 51"
+    (node "U66" "4")
+    (node "U67" "1")
+  )
+
+  (net "Net 52"
+    (node "U26" "4")
+    (node "U27" "1")
+  )
+
+  (net "Net 53"
+    (node "U26" "5")
+    (node "U27" "2")
+  )
+
+  (net "Net 54"
+    (node "U27" "4")
+    (node "U28" "1")
+  )
+
+  (net "Net 55"
+    (node "U27" "5")
+    (node "U28" "2")
+  )
+
+  (net "Net 56"
+    (node "U28" "4")
+    (node "U29" "1")
+  )
+
+  (net "Net 57"
+    (node "U28" "5")
+    (node "U29" "2")
+  )
+
+  (net "Net 58"
+    (node "U29" "4")
+    (node "U30" "1")
+  )
+
+  (net "Net 59"
+    (node "U29" "5")
+    (node "U30" "2")
+  )
+
+  (net "Net 60"
+    (node "U30" "4")
+    (node "U31" "1")
+  )
+
+  (net "Net 61"
+    (node "U30" "5")
+    (node "U31" "2")
+  )
+
+  (net "Net 62"
+    (node "U31" "4")
+    (node "U32" "1")
+  )
+
+  (net "Net 63"
+    (node "U31" "5")
+    (node "U32" "2")
+  )
+
+  (net "Net 64"
+    (node "U33" "4")
+    (node "U34" "1")
+  )
+
+  (net "Net 65"
+    (node "U33" "5")
+    (node "U34" "2")
+  )
+
+  (net "Net 66"
+    (node "U66" "5")
+    (node "U67" "2")
+  )
+
+  (net "Net 67"
+    (node "U67" "4")
+    (node "U68" "1")
+  )
+
+  (net "Net 68"
+    (node "U34" "4")
+    (node "U35" "1")
+  )
+
+  (net "Net 69"
+    (node "U34" "5")
+    (node "U35" "2")
+  )
+
+  (net "Net 70"
+    (node "U35" "4")
+    (node "U36" "1")
+  )
+
+  (net "Net 71"
+    (node "U35" "5")
+    (node "U36" "2")
+  )
+
+  (net "Net 72"
+    (node "U36" "4")
+    (node "U37" "1")
+  )
+
+  (net "Net 73"
+    (node "U36" "5")
+    (node "U37" "2")
+  )
+
+  (net "Net 74"
+    (node "U37" "4")
+    (node "U38" "1")
+  )
+
+  (net "Net 75"
+    (node "U37" "5")
+    (node "U38" "2")
+  )
+
+  (net "Net 76"
+    (node "U38" "4")
+    (node "U39" "1")
+  )
+
+  (net "Net 77"
+    (node "U38" "5")
+    (node "U39" "2")
+  )
+
+  (net "Net 78"
+    (node "U39" "4")
+    (node "U40" "1")
+  )
+
+  (net "Net 79"
+    (node "U39" "5")
+    (node "U40" "2")
+  )
+
+  (net "Net 80"
+    (node "U41" "4")
+    (node "U42" "1")
+  )
+
+  (net "Net 81"
+    (node "U41" "5")
+    (node "U42" "2")
+  )
+
+  (net "Net 82"
+    (node "U67" "5")
+    (node "U68" "2")
+  )
+
+  (net "Net 83"
+    (node "U68" "4")
+    (node "U69" "1")
+  )
+
+  (net "Net 84"
+    (node "U42" "4")
+    (node "U43" "1")
+  )
+
+  (net "Net 85"
+    (node "U42" "5")
+    (node "U43" "2")
+  )
+
+  (net "Net 86"
+    (node "U43" "4")
+    (node "U44" "1")
+  )
+
+  (net "Net 87"
+    (node "U43" "5")
+    (node "U44" "2")
+  )
+
+  (net "Net 88"
+    (node "U44" "4")
+    (node "U45" "1")
+  )
+
+  (net "Net 89"
+    (node "U44" "5")
+    (node "U45" "2")
+  )
+
+  (net "Net 90"
+    (node "U45" "4")
+    (node "U46" "1")
+  )
+
+  (net "Net 91"
+    (node "U45" "5")
+    (node "U46" "2")
+  )
+
+  (net "Net 92"
+    (node "U46" "4")
+    (node "U47" "1")
+  )
+
+  (net "Net 93"
+    (node "U46" "5")
+    (node "U47" "2")
+  )
+
+  (net "Net 94"
+    (node "U47" "4")
+    (node "U48" "1")
+  )
+
+  (net "Net 95"
+    (node "U47" "5")
+    (node "U48" "2")
+  )
+
+  (net "Net 96"
+    (node "U49" "4")
+    (node "U50" "1")
+  )
+
+  (net "Net 97"
+    (node "U49" "5")
+    (node "U50" "2")
+  )
+
+  (net "Net 98"
+    (node "U68" "5")
+    (node "U69" "2")
+  )
+
+  (net "Net 99"
+    (node "U69" "4")
+    (node "U70" "1")
+  )
+
+  (net "Net 100"
+    (node "U50" "4")
+    (node "U51" "1")
+  )
+
+  (net "Net 101"
+    (node "U50" "5")
+    (node "U51" "2")
+  )
+
+  (net "Net 102"
+    (node "U51" "4")
+    (node "U52" "1")
+  )
+
+  (net "Net 103"
+    (node "U51" "5")
+    (node "U52" "2")
+  )
+
+  (net "Net 104"
+    (node "U52" "4")
+    (node "U53" "1")
+  )
+
+  (net "Net 105"
+    (node "U52" "5")
+    (node "U53" "2")
+  )
+
+  (net "Net 106"
+    (node "U53" "4")
+    (node "U54" "1")
+  )
+
+  (net "Net 107"
+    (node "U53" "5")
+    (node "U54" "2")
+  )
+
+  (net "Net 108"
+    (node "U54" "4")
+    (node "U55" "1")
+  )
+
+  (net "Net 109"
+    (node "U54" "5")
+    (node "U55" "2")
+  )
+
+  (net "Net 110"
+    (node "U55" "4")
+    (node "U56" "1")
+  )
+
+  (net "Net 111"
+    (node "U55" "5")
+    (node "U56" "2")
+  )
+
+  (net "Net 112"
+    (node "U57" "4")
+    (node "U58" "1")
+  )
+
+  (net "Net 113"
+    (node "U57" "5")
+    (node "U58" "2")
+  )
+
+  (net "Net 114"
+    (node "U56" "4")
+    (node "U57" "1")
+    (node "U57" "13")
+    (node "U57" "9")
+    (node "U57" "17")
+  )
+
+  (net "Net 115"
+    (node "U56" "5")
+    (node "U57" "2")
+    (node "U57" "14")
+    (node "U57" "10")
+    (node "U57" "18")
+  )
+
+  (net "Net 116"
+    (node "U58" "4")
+    (node "U59" "1")
+  )
+
+  (net "Net 117"
+    (node "U58" "5")
+    (node "U59" "2")
+  )
+
+  (net "Net 118"
+    (node "U59" "4")
+    (node "U60" "1")
+  )
+
+  (net "Net 119"
+    (node "U59" "5")
+    (node "U60" "2")
+  )
+
+  (net "Net 120"
+    (node "U60" "4")
+    (node "U61" "1")
+  )
+
+  (net "Net 121"
+    (node "U60" "5")
+    (node "U61" "2")
+  )
+
+  (net "Net 122"
+    (node "U61" "4")
+    (node "U62" "1")
+  )
+
+  (net "Net 123"
+    (node "U61" "5")
+    (node "U62" "2")
+  )
+
+  (net "Net 124"
+    (node "U62" "4")
+    (node "U63" "1")
+  )
+
+  (net "Net 125"
+    (node "U62" "5")
+    (node "U63" "2")
+  )
+
+  (net "Net 126"
+    (node "U63" "4")
+    (node "U64" "1")
+  )
+
+  (net "Net 127"
+    (node "U63" "5")
+    (node "U64" "2")
+  )
+
+  (net "Net 128"
+    (node "U8" "5")
+    (node "U9" "2")
+    (node "U9" "14")
+    (node "U9" "10")
+    (node "U9" "18")
+  )
+
+  (net "Net 129"
+    (node "U8" "4")
+    (node "U9" "1")
+    (node "U9" "13")
+    (node "U9" "9")
+    (node "U9" "17")
+  )
+
+  (net "Net 130"
+    (node "U24" "4")
+    (node "U25" "1")
+    (node "U25" "13")
+    (node "U25" "9")
+    (node "U25" "17")
+  )
+
+  (net "Net 131"
+    (node "U24" "5")
+    (node "U25" "2")
+    (node "U25" "14")
+    (node "U25" "10")
+    (node "U25" "18")
+  )
+
+  (net "Net 132"
+    (node "U40" "5")
+    (node "U41" "2")
+    (node "U41" "14")
+    (node "U41" "10")
+    (node "U41" "18")
+  )
+
+  (net "Net 133"
+    (node "U40" "4")
+    (node "U41" "1")
+    (node "U41" "13")
+    (node "U41" "9")
+    (node "U41" "17")
+  )
+
+  (net "Net 134"
+    (node "U16" "4")
+    (node "U17" "1")
+    (node "U17" "13")
+    (node "U17" "9")
+    (node "U17" "17")
+  )
+
+  (net "Net 135"
+    (node "U16" "5")
+    (node "U17" "2")
+    (node "U17" "14")
+    (node "U17" "10")
+    (node "U17" "18")
+  )
+
+  (net "Net 136"
+    (node "U32" "4")
+    (node "U33" "1")
+    (node "U33" "13")
+    (node "U33" "9")
+    (node "U33" "17")
+  )
+
+  (net "Net 137"
+    (node "U32" "5")
+    (node "U33" "2")
+    (node "U33" "14")
+    (node "U33" "10")
+    (node "U33" "18")
+  )
+
+  (net "Net 138"
+    (node "U69" "5")
+    (node "U70" "2")
+  )
+
+  (net "Net 139"
+    (node "U70" "4")
+    (node "U71" "1")
+  )
+
+  (net "Net 140"
+    (node "U70" "5")
+    (node "U71" "2")
+  )
+
+  (net "Net 141"
+    (node "U71" "4")
+    (node "U72" "1")
+  )
+
+  (net "Net 142"
+    (node "U71" "5")
+    (node "U72" "2")
+  )
+
+  (net "Net 143"
+    (node "U73" "4")
+    (node "U74" "1")
+  )
+
+  (net "Net 144"
+    (node "U73" "5")
+    (node "U74" "2")
+  )
+
+  (net "Net 146"
+    (node "U112" "4")
+    (node "OUT" "2")
+    (node "OUT" "6")
+  )
+
+  (net "Net 145"
+    (node "U112" "5")
+    (node "OUT" "3")
+    (node "OUT" "7")
+  )
+
+  (net "Net 147"
+    (node "U74" "4")
+    (node "U75" "1")
+  )
+
+  (net "Net 148"
+    (node "U74" "5")
+    (node "U75" "2")
+  )
+
+  (net "Net 149"
+    (node "U75" "4")
+    (node "U76" "1")
+  )
+
+  (net "Net 150"
+    (node "U75" "5")
+    (node "U76" "2")
+  )
+
+  (net "Net 151"
+    (node "U76" "4")
+    (node "U77" "1")
+  )
+
+  (net "Net 152"
+    (node "U76" "5")
+    (node "U77" "2")
+  )
+
+  (net "Net 153"
+    (node "U77" "4")
+    (node "U78" "1")
+  )
+
+  (net "Net 154"
+    (node "U77" "5")
+    (node "U78" "2")
+  )
+
+  (net "Net 155"
+    (node "U78" "4")
+    (node "U79" "1")
+  )
+
+  (net "Net 156"
+    (node "U78" "5")
+    (node "U79" "2")
+  )
+
+  (net "Net 157"
+    (node "U79" "4")
+    (node "U80" "1")
+  )
+
+  (net "Net 158"
+    (node "U79" "5")
+    (node "U80" "2")
+  )
+
+  (net "Net 159"
+    (node "U81" "4")
+    (node "U82" "1")
+  )
+
+  (net "Net 160"
+    (node "U81" "5")
+    (node "U82" "2")
+  )
+
+  (net "Net 161"
+    (node "U82" "4")
+    (node "U83" "1")
+  )
+
+  (net "Net 162"
+    (node "U82" "5")
+    (node "U83" "2")
+  )
+
+  (net "Net 163"
+    (node "U83" "4")
+    (node "U84" "1")
+  )
+
+  (net "Net 164"
+    (node "U83" "5")
+    (node "U84" "2")
+  )
+
+  (net "Net 165"
+    (node "U84" "4")
+    (node "U85" "1")
+  )
+
+  (net "Net 166"
+    (node "U84" "5")
+    (node "U85" "2")
+  )
+
+  (net "Net 167"
+    (node "U85" "4")
+    (node "U86" "1")
+  )
+
+  (net "Net 168"
+    (node "U85" "5")
+    (node "U86" "2")
+  )
+
+  (net "Net 169"
+    (node "U86" "4")
+    (node "U87" "1")
+  )
+
+  (net "Net 170"
+    (node "U86" "5")
+    (node "U87" "2")
+  )
+
+  (net "Net 171"
+    (node "U87" "4")
+    (node "U88" "1")
+  )
+
+  (net "Net 172"
+    (node "U87" "5")
+    (node "U88" "2")
+  )
+
+  (net "Net 173"
+    (node "U89" "4")
+    (node "U90" "1")
+  )
+
+  (net "Net 174"
+    (node "U89" "5")
+    (node "U90" "2")
+  )
+
+  (net "Net 175"
+    (node "U90" "4")
+    (node "U91" "1")
+  )
+
+  (net "Net 176"
+    (node "U90" "5")
+    (node "U91" "2")
+  )
+
+  (net "Net 177"
+    (node "U91" "4")
+    (node "U92" "1")
+  )
+
+  (net "Net 178"
+    (node "U91" "5")
+    (node "U92" "2")
+  )
+
+  (net "Net 179"
+    (node "U92" "4")
+    (node "U93" "1")
+  )
+
+  (net "Net 180"
+    (node "U92" "5")
+    (node "U93" "2")
+  )
+
+  (net "Net 181"
+    (node "U93" "4")
+    (node "U94" "1")
+  )
+
+  (net "Net 182"
+    (node "U93" "5")
+    (node "U94" "2")
+  )
+
+  (net "Net 183"
+    (node "U94" "4")
+    (node "U95" "1")
+  )
+
+  (net "Net 184"
+    (node "U94" "5")
+    (node "U95" "2")
+  )
+
+  (net "Net 185"
+    (node "U95" "4")
+    (node "U96" "1")
+  )
+
+  (net "Net 186"
+    (node "U95" "5")
+    (node "U96" "2")
+  )
+
+  (net "Net 187"
+    (node "U97" "4")
+    (node "U98" "1")
+  )
+
+  (net "Net 188"
+    (node "U97" "5")
+    (node "U98" "2")
+  )
+
+  (net "Net 189"
+    (node "U98" "4")
+    (node "U99" "1")
+  )
+
+  (net "Net 190"
+    (node "U98" "5")
+    (node "U99" "2")
+  )
+
+  (net "Net 191"
+    (node "U99" "4")
+    (node "U100" "1")
+  )
+
+  (net "Net 192"
+    (node "U99" "5")
+    (node "U100" "2")
+  )
+
+  (net "Net 193"
+    (node "U100" "4")
+    (node "U101" "1")
+  )
+
+  (net "Net 194"
+    (node "U100" "5")
+    (node "U101" "2")
+  )
+
+  (net "Net 195"
+    (node "U101" "4")
+    (node "U102" "1")
+  )
+
+  (net "Net 196"
+    (node "U101" "5")
+    (node "U102" "2")
+  )
+
+  (net "Net 197"
+    (node "U102" "4")
+    (node "U103" "1")
+  )
+
+  (net "Net 198"
+    (node "U102" "5")
+    (node "U103" "2")
+  )
+
+  (net "Net 199"
+    (node "U103" "4")
+    (node "U104" "1")
+  )
+
+  (net "Net 200"
+    (node "U103" "5")
+    (node "U104" "2")
+  )
+
+  (net "Net 201"
+    (node "U105" "4")
+    (node "U106" "1")
+  )
+
+  (net "Net 203"
+    (node "U105" "5")
+    (node "U106" "2")
+  )
+
+  (net "Net 205"
+    (node "U106" "4")
+    (node "U107" "1")
+  )
+
+  (net "Net 207"
+    (node "U106" "5")
+    (node "U107" "2")
+  )
+
+  (net "Net 208"
+    (node "U107" "4")
+    (node "U108" "1")
+  )
+
+  (net "Net 209"
+    (node "U107" "5")
+    (node "U108" "2")
+  )
+
+  (net "Net 210"
+    (node "U108" "4")
+    (node "U109" "1")
+  )
+
+  (net "Net 211"
+    (node "U108" "5")
+    (node "U109" "2")
+  )
+
+  (net "Net 217"
+    (node "U109" "4")
+    (node "U110" "1")
+  )
+
+  (net "Net 218"
+    (node "U109" "5")
+    (node "U110" "2")
+  )
+
+  (net "Net 219"
+    (node "U110" "4")
+    (node "U111" "1")
+  )
+
+  (net "Net 221"
+    (node "U110" "5")
+    (node "U111" "2")
+  )
+
+  (net "Net 222"
+    (node "U111" "4")
+    (node "U112" "1")
+  )
+
+  (net "Net 223"
+    (node "U111" "5")
+    (node "U112" "2")
+  )
+
+  (net "VDD"
+    (node "U65" "6")
+    (node "U65" "15")
+    (node "U65" "11")
+    (node "U65" "19")
+    (node "U66" "6")
+    (node "U67" "6")
+    (node "U68" "6")
+    (node "U69" "6")
+    (node "U70" "6")
+    (node "U71" "6")
+    (node "U72" "6")
+    (node "U73" "6")
+    (node "U73" "15")
+    (node "U73" "11")
+    (node "U73" "19")
+    (node "U74" "6")
+    (node "U75" "6")
+    (node "U76" "6")
+    (node "U77" "6")
+    (node "U78" "6")
+    (node "U79" "6")
+    (node "U80" "6")
+    (node "U81" "6")
+    (node "U81" "15")
+    (node "U81" "11")
+    (node "U81" "19")
+    (node "U82" "6")
+    (node "U83" "6")
+    (node "U84" "6")
+    (node "U85" "6")
+    (node "U86" "6")
+    (node "U87" "6")
+    (node "U88" "6")
+    (node "U89" "6")
+    (node "U89" "15")
+    (node "U89" "11")
+    (node "U89" "19")
+    (node "U90" "6")
+    (node "U91" "6")
+    (node "U92" "6")
+    (node "U93" "6")
+    (node "U94" "6")
+    (node "U95" "6")
+    (node "U96" "6")
+    (node "U97" "6")
+    (node "U97" "15")
+    (node "U97" "11")
+    (node "U97" "19")
+    (node "U98" "6")
+    (node "U99" "6")
+    (node "U100" "6")
+    (node "U101" "6")
+    (node "U102" "6")
+    (node "U103" "6")
+    (node "U104" "6")
+    (node "U105" "6")
+    (node "U105" "15")
+    (node "U105" "11")
+    (node "U105" "19")
+    (node "U106" "6")
+    (node "U107" "6")
+    (node "U108" "6")
+    (node "U109" "6")
+    (node "U110" "6")
+    (node "U111" "6")
+    (node "U112" "6")
+  )
+
+  (net "Net 241"
+    (node "U1" "2")
+    (node "IN" "7")
+    (node "IN" "3")
+  )
+
+  (net "Net 242"
+    (node "U1" "1")
+    (node "IN" "6")
+    (node "IN" "2")
+  )
+
+  (net "Net 408"
+    (node "U72" "5")
+    (node "U73" "2")
+    (node "U73" "14")
+    (node "U73" "10")
+    (node "U73" "18")
+  )
+
+  (net "Net 416"
+    (node "U72" "4")
+    (node "U73" "1")
+    (node "U73" "13")
+    (node "U73" "9")
+    (node "U73" "17")
+  )
+
+  (net "Net 424"
+    (node "U88" "4")
+    (node "U89" "1")
+    (node "U89" "13")
+    (node "U89" "9")
+    (node "U89" "17")
+  )
+
+  (net "Net 432"
+    (node "U88" "5")
+    (node "U89" "2")
+    (node "U89" "14")
+    (node "U89" "10")
+    (node "U89" "18")
+  )
+
+  (net "Net 433"
+    (node "U104" "5")
+    (node "U105" "2")
+    (node "U105" "14")
+    (node "U105" "10")
+    (node "U105" "18")
+  )
+
+  (net "Net 434"
+    (node "U104" "4")
+    (node "U105" "1")
+    (node "U105" "13")
+    (node "U105" "9")
+    (node "U105" "17")
+  )
+
+  (net "Net 435"
+    (node "U80" "4")
+    (node "U81" "1")
+    (node "U81" "13")
+    (node "U81" "9")
+    (node "U81" "17")
+  )
+
+  (net "Net 441"
+    (node "U80" "5")
+    (node "U81" "2")
+    (node "U81" "14")
+    (node "U81" "10")
+    (node "U81" "18")
+  )
+
+  (net "Net 442"
+    (node "U96" "4")
+    (node "U97" "1")
+    (node "U97" "13")
+    (node "U97" "9")
+    (node "U97" "17")
+  )
+
+  (net "Net 443"
+    (node "U96" "5")
+    (node "U97" "2")
+    (node "U97" "14")
+    (node "U97" "10")
+    (node "U97" "18")
+  )
+
+  (netClass "Default_Dip0"
+    (netNameRef "Net 0")
+    (netNameRef "Net 1")
+    (netNameRef "Net 2")
+    (netNameRef "Net 3")
+    (netNameRef "Net 4")
+    (netNameRef "Net 5")
+    (netNameRef "Net 6")
+    (netNameRef "Net 7")
+    (netNameRef "Net 8")
+    (netNameRef "Net 9")
+    (netNameRef "Net 10")
+    (netNameRef "Net 11")
+    (netNameRef "Net 12")
+    (netNameRef "Net 13")
+    (netNameRef "Net 14")
+    (netNameRef "Net 15")
+    (netNameRef "Net 16")
+    (netNameRef "Net 17")
+    (netNameRef "Net 18")
+    (netNameRef "Net 19")
+    (netNameRef "Net 20")
+    (netNameRef "Net 21")
+    (netNameRef "Net 22")
+    (netNameRef "Net 23")
+    (netNameRef "Net 24")
+    (netNameRef "Net 25")
+    (netNameRef "Net 26")
+    (netNameRef "Net 27")
+    (netNameRef "Net 28")
+    (netNameRef "Net 29")
+    (netNameRef "Net 30")
+    (netNameRef "Net 31")
+    (netNameRef "Net 32")
+    (netNameRef "Net 33")
+    (netNameRef "Net 35")
+    (netNameRef "Net 36")
+    (netNameRef "Net 37")
+    (netNameRef "Net 38")
+    (netNameRef "Net 39")
+    (netNameRef "Net 40")
+    (netNameRef "Net 41")
+    (netNameRef "Net 42")
+    (netNameRef "Net 43")
+    (netNameRef "Net 44")
+    (netNameRef "Net 45")
+    (netNameRef "Net 46")
+    (netNameRef "Net 47")
+    (netNameRef "Net 48")
+    (netNameRef "Net 49")
+    (netNameRef "Net 50")
+    (netNameRef "Net 51")
+    (netNameRef "Net 52")
+    (netNameRef "Net 53")
+    (netNameRef "Net 54")
+    (netNameRef "Net 55")
+    (netNameRef "Net 56")
+    (netNameRef "Net 57")
+    (netNameRef "Net 58")
+    (netNameRef "Net 59")
+    (netNameRef "Net 60")
+    (netNameRef "Net 61")
+    (netNameRef "Net 62")
+    (netNameRef "Net 63")
+    (netNameRef "Net 64")
+    (netNameRef "Net 65")
+    (netNameRef "Net 66")
+    (netNameRef "Net 67")
+    (netNameRef "Net 68")
+    (netNameRef "Net 69")
+    (netNameRef "Net 70")
+    (netNameRef "Net 71")
+    (netNameRef "Net 72")
+    (netNameRef "Net 73")
+    (netNameRef "Net 74")
+    (netNameRef "Net 75")
+    (netNameRef "Net 76")
+    (netNameRef "Net 77")
+    (netNameRef "Net 78")
+    (netNameRef "Net 79")
+    (netNameRef "Net 80")
+    (netNameRef "Net 81")
+    (netNameRef "Net 82")
+    (netNameRef "Net 83")
+    (netNameRef "Net 84")
+    (netNameRef "Net 85")
+    (netNameRef "Net 86")
+    (netNameRef "Net 87")
+    (netNameRef "Net 88")
+    (netNameRef "Net 89")
+    (netNameRef "Net 90")
+    (netNameRef "Net 91")
+    (netNameRef "Net 92")
+    (netNameRef "Net 93")
+    (netNameRef "Net 94")
+    (netNameRef "Net 95")
+    (netNameRef "Net 96")
+    (netNameRef "Net 97")
+    (netNameRef "Net 98")
+    (netNameRef "Net 99")
+    (netNameRef "Net 100")
+    (netNameRef "Net 101")
+    (netNameRef "Net 102")
+    (netNameRef "Net 103")
+    (netNameRef "Net 104")
+    (netNameRef "Net 105")
+    (netNameRef "Net 106")
+    (netNameRef "Net 107")
+    (netNameRef "Net 108")
+    (netNameRef "Net 109")
+    (netNameRef "Net 110")
+    (netNameRef "Net 111")
+    (netNameRef "Net 112")
+    (netNameRef "Net 113")
+    (netNameRef "Net 114")
+    (netNameRef "Net 115")
+    (netNameRef "Net 116")
+    (netNameRef "Net 117")
+    (netNameRef "Net 118")
+    (netNameRef "Net 119")
+    (netNameRef "Net 120")
+    (netNameRef "Net 121")
+    (netNameRef "Net 122")
+    (netNameRef "Net 123")
+    (netNameRef "Net 124")
+    (netNameRef "Net 125")
+    (netNameRef "Net 126")
+    (netNameRef "Net 127")
+    (netNameRef "Net 128")
+    (netNameRef "Net 129")
+    (netNameRef "Net 130")
+    (netNameRef "Net 131")
+    (netNameRef "Net 132")
+    (netNameRef "Net 133")
+    (netNameRef "Net 134")
+    (netNameRef "Net 135")
+    (netNameRef "Net 136")
+    (netNameRef "Net 137")
+    (netNameRef "Net 138")
+    (netNameRef "Net 139")
+    (netNameRef "Net 140")
+    (netNameRef "Net 141")
+    (netNameRef "Net 142")
+    (netNameRef "Net 143")
+    (netNameRef "Net 144")
+    (netNameRef "Net 146")
+    (netNameRef "Net 145")
+    (netNameRef "Net 147")
+    (netNameRef "Net 148")
+    (netNameRef "Net 149")
+    (netNameRef "Net 150")
+    (netNameRef "Net 151")
+    (netNameRef "Net 152")
+    (netNameRef "Net 153")
+    (netNameRef "Net 154")
+    (netNameRef "Net 155")
+    (netNameRef "Net 156")
+    (netNameRef "Net 157")
+    (netNameRef "Net 158")
+    (netNameRef "Net 159")
+    (netNameRef "Net 160")
+    (netNameRef "Net 161")
+    (netNameRef "Net 162")
+    (netNameRef "Net 163")
+    (netNameRef "Net 164")
+    (netNameRef "Net 165")
+    (netNameRef "Net 166")
+    (netNameRef "Net 167")
+    (netNameRef "Net 168")
+    (netNameRef "Net 169")
+    (netNameRef "Net 170")
+    (netNameRef "Net 171")
+    (netNameRef "Net 172")
+    (netNameRef "Net 173")
+    (netNameRef "Net 174")
+    (netNameRef "Net 175")
+    (netNameRef "Net 176")
+    (netNameRef "Net 177")
+    (netNameRef "Net 178")
+    (netNameRef "Net 179")
+    (netNameRef "Net 180")
+    (netNameRef "Net 181")
+    (netNameRef "Net 182")
+    (netNameRef "Net 183")
+    (netNameRef "Net 184")
+    (netNameRef "Net 185")
+    (netNameRef "Net 186")
+    (netNameRef "Net 187")
+    (netNameRef "Net 188")
+    (netNameRef "Net 189")
+    (netNameRef "Net 190")
+    (netNameRef "Net 191")
+    (netNameRef "Net 192")
+    (netNameRef "Net 193")
+    (netNameRef "Net 194")
+    (netNameRef "Net 195")
+    (netNameRef "Net 196")
+    (netNameRef "Net 197")
+    (netNameRef "Net 198")
+    (netNameRef "Net 199")
+    (netNameRef "Net 200")
+    (netNameRef "Net 201")
+    (netNameRef "Net 203")
+    (netNameRef "Net 205")
+    (netNameRef "Net 207")
+    (netNameRef "Net 208")
+    (netNameRef "Net 209")
+    (netNameRef "Net 210")
+    (netNameRef "Net 211")
+    (netNameRef "Net 217")
+    (netNameRef "Net 218")
+    (netNameRef "Net 219")
+    (netNameRef "Net 221")
+    (netNameRef "Net 222")
+    (netNameRef "Net 223")
+    (netNameRef "Net 241")
+    (netNameRef "Net 242")
+    (netNameRef "Net 408")
+    (netNameRef "Net 416")
+    (netNameRef "Net 424")
+    (netNameRef "Net 432")
+    (netNameRef "Net 433")
+    (netNameRef "Net 434")
+    (netNameRef "Net 435")
+    (netNameRef "Net 441")
+    (netNameRef "Net 442")
+    (netNameRef "Net 443")
+    (attr "Width" "0.7112mm" (textStyleRef "(Default)"))
+    (attr "Clearance" "0.2032mm" (textStyleRef "(Default)"))
+    (attr "MaxWidth" "100mm" (textStyleRef "(Default)"))
+    (attr "MinWidth" "0.01mm" (textStyleRef "(Default)"))
+    (attr "USE_LAYERS" "Top, Bottom" (textStyleRef "(Default)"))
+  )
+  (netClass "Power"
+    (netNameRef "GND")
+    (netNameRef "Net 34")
+    (netNameRef "VDD")
+    (attr "Width" "1.27mm" (textStyleRef "(Default)"))
+    (attr "Clearance" "0.2032mm" (textStyleRef "(Default)"))
+    (attr "MaxWidth" "100mm" (textStyleRef "(Default)"))
+    (attr "MinWidth" "0.01mm" (textStyleRef "(Default)"))
+    (attr "USE_LAYERS" "Top, Bottom" (textStyleRef "(Default)"))
+  )
+)
+(pcbDesign "PcbDesign_1"
+  (pcbDesignHeader
+    (workspaceSize 539.5454 263.3506)
+    (gridDfns
+      (grid "0.1588mm")
+      (grid "0.3175mm")
+      (grid "0.635mm")
+      (grid "1.27mm")
+      (grid "2.54mm")
+      (grid "3.81mm")
+      (grid "5.08mm")
+      (grid "7.62mm")
+    )
+    (designInfo
+      (fieldSet "(Default)"
+        (fieldDef "Date" "")
+        (fieldDef "Time" "")
+        (fieldDef "Author" "")
+        (fieldDef "Revision" "")
+        (fieldDef "Title" "")
+        (fieldDef "Approved By" "")
+        (fieldDef "Checked By" "")
+        (fieldDef "Company Name" "")
+        (fieldDef "Drawing Number" "")
+        (fieldDef "Drawn By" "")
+        (fieldDef "Engineer" "")
+      )
+    )
+    (solderSwell 0.1905)
+    (pasteSwell 0.0)
+    (planeSwell 0.254)
+    (refPointSize 2.54)
+    (infoPointSize 2.54)
+    (gluePointSize 2.54)
+    (pickPointSize 2.54)
+    (testPointSize 2.54)
+    (refPointSizePrint 2.54)
+    (infoPointSizePrint 2.54)
+    (gluePointSizePrint 2.54)
+    (pickPointSizePrint 2.54)
+    (testPointSizePrint 2.54)
+    (solderFlowDirection solderFlowTopToBottom)
+  )
+  (layerDef "Top Assy"
+    (layerNum 10)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Top Silk"
+    (layerNum 6)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Top Paste"
+    (layerNum 8)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Top Mask"
+    (layerNum 4)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Top"
+    (layerNum 1)
+    (layerType Signal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bottom"
+    (layerNum 2)
+    (layerType Signal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bot Mask"
+    (layerNum 5)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bot Paste"
+    (layerNum 9)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bot Silk"
+    (layerNum 7)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Bot Assy"
+    (layerNum 11)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (layerDef "Board"
+    (layerNum 3)
+    (layerType NonSignal)
+    (fieldSetRef "(Default)")
+  )
+  (multiLayer
+    (pattern (patternRef "APA102C_0") (refDesRef "U1") (pt 12.5433 10.9652)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U1" (pt -0.8605 5.6612) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U2") (pt 12.1308 26.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U2" (pt -1.1226 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U3") (pt 12.1308 42.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U3" (pt -1.1226 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U4") (pt 12.1308 58.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U4" (pt -1.1516 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U5") (pt 12.1308 74.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U5" (pt -1.1226 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U6") (pt 12.1308 90.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U6" (pt -1.0929 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U7") (pt 12.1308 106.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U7" (pt -1.1226 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U8") (pt 12.1308 122.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U8" (pt -1.1219 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C + input pads 16mm_1") (refDesRef "U9") (pt 24.2362 122.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U9" (pt -1.0936 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U10") (pt 28.9558 106.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U10" (pt -1.457 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U11") (pt 28.9558 90.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U11" (pt -1.1949 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U12") (pt 28.9558 74.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U12" (pt -1.457 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U13") (pt 28.9558 58.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U13" (pt -1.457 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U14") (pt 28.9558 42.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U14" (pt -1.486 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U15") (pt 28.9558 26.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U15" (pt -1.457 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U16") (pt 28.9558 10.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U16" (pt -1.4274 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C + input pads 16mm_1") (refDesRef "U17") (pt 40.2362 10.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U17" (pt -1.457 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U18") (pt 44.1308 26.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U18" (pt -1.4564 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U19") (pt 44.1308 42.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U19" (pt -1.4281 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U20") (pt 44.1308 58.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U20" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U21") (pt 44.1308 74.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U21" (pt -1.457 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U22") (pt 44.1308 90.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U22" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U23") (pt 44.1308 106.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U23" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U24") (pt 44.1308 122.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U24" (pt -1.7481 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C + input pads 16mm_1") (refDesRef "U25") (pt 56.2362 122.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U25" (pt -1.7192 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U26") (pt 60.9558 106.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U26" (pt -1.6895 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U27") (pt 60.9558 90.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U27" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U28") (pt 60.9558 74.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U28" (pt -1.7185 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U29") (pt 60.9558 58.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U29" (pt -1.6902 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U30") (pt 60.9558 42.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U30" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U31") (pt 60.9558 26.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U31" (pt -1.457 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U32") (pt 60.9558 10.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U32" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C + input pads 16mm_1") (refDesRef "U33") (pt 72.2362 10.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U33" (pt -1.7192 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U34") (pt 76.1308 26.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U34" (pt -1.7481 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U35") (pt 76.1308 42.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U35" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U36") (pt 76.1308 58.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U36" (pt -1.6895 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U37") (pt 76.1308 74.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U37" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U38") (pt 76.1308 90.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U38" (pt -1.7185 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U39") (pt 76.1308 106.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U39" (pt -1.6902 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U40") (pt 76.1308 122.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U40" (pt -1.7481 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C + input pads 16mm_1") (refDesRef "U41") (pt 88.2362 122.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U41" (pt -1.486 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U42") (pt 92.9558 106.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U42" (pt -1.7481 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U43") (pt 92.9558 90.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U43" (pt -1.7481 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U44") (pt 92.9558 74.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U44" (pt -1.7771 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U45") (pt 92.9558 58.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U45" (pt -1.7481 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U46") (pt 92.9558 42.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U46" (pt -1.7185 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U47") (pt 92.9558 26.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U47" (pt -1.7481 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U48") (pt 92.9558 10.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U48" (pt -1.7475 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C + input pads 16mm_1") (refDesRef "U49") (pt 104.2362 10.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U49" (pt -1.7192 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U50") (pt 108.1308 26.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U50" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U51") (pt 108.1308 42.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U51" (pt -1.457 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U52") (pt 108.1308 58.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U52" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U53") (pt 108.1308 74.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U53" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U54") (pt 108.1308 90.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U54" (pt -1.7481 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U55") (pt 108.1308 106.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U55" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U56") (pt 108.1308 122.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U56" (pt -1.6895 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C + input pads 16mm_1") (refDesRef "U57") (pt 120.2362 122.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U57" (pt -1.7192 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U58") (pt 124.9558 106.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U58" (pt -1.7185 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U59") (pt 124.9558 90.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U59" (pt -1.6902 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U60") (pt 124.9558 74.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U60" (pt -1.6895 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U61") (pt 124.9558 58.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U61" (pt -1.4274 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U62") (pt 124.9558 42.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U62" (pt -1.6895 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U63") (pt 124.9558 26.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U63" (pt -1.6895 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U64") (pt 124.9558 10.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U64" (pt -1.7185 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C + input pads 16mm_1") (refDesRef "U65") (pt 136.2362 10.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U65" (pt -1.6895 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U66") (pt 140.1308 26.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U66" (pt -1.6599 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U67") (pt 140.1308 42.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U67" (pt -1.6895 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U68") (pt 140.1308 58.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U68" (pt -1.6888 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U69") (pt 140.1308 74.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U69" (pt -1.6605 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U70") (pt 140.1308 90.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U70" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U71") (pt 140.1308 106.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U71" (pt -1.457 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U72") (pt 140.1308 122.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U72" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C + input pads 16mm_1") (refDesRef "U73") (pt 152.2362 122.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U73" (pt -1.7192 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U74") (pt 156.9558 106.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U74" (pt -1.7481 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U75") (pt 156.9558 90.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U75" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U76") (pt 156.9558 74.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U76" (pt -1.6895 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U77") (pt 156.9558 58.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U77" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U78") (pt 156.9558 42.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U78" (pt -1.7185 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U79") (pt 156.9558 26.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U79" (pt -1.6902 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U80") (pt 156.9558 10.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U80" (pt -1.7185 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C + input pads 16mm_1") (refDesRef "U81") (pt 168.2362 10.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U81" (pt -1.4564 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U82") (pt 172.1308 26.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U82" (pt -1.7185 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U83") (pt 172.1308 42.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U83" (pt -1.7185 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U84") (pt 172.1308 58.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U84" (pt -1.7475 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U85") (pt 172.1308 74.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U85" (pt -1.7185 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U86") (pt 172.1308 90.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U86" (pt -1.6888 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U87") (pt 172.1308 106.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U87" (pt -1.7185 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U88") (pt 172.1308 122.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U88" (pt -1.7178 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C + input pads 16mm_1") (refDesRef "U89") (pt 184.2362 122.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U89" (pt -1.6895 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U90") (pt 188.9558 106.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U90" (pt -1.6902 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U91") (pt 188.9558 90.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U91" (pt -1.4281 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U92") (pt 188.9558 74.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U92" (pt -1.6902 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U93") (pt 188.9558 58.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U93" (pt -1.6902 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U94") (pt 188.9558 42.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U94" (pt -1.7192 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U95") (pt 188.9558 26.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U95" (pt -1.6902 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U96") (pt 188.9558 10.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U96" (pt -1.6605 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C + input pads 16mm_1") (refDesRef "U97") (pt 200.2362 10.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U97" (pt -1.6902 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U98") (pt 204.1308 26.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U98" (pt -1.6895 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U99") (pt 204.1308 42.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U99" (pt -1.6612 5.9987) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U100") (pt 204.1308 58.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U100" (pt -5.6612 -2.0536) (rotation 90.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U101") (pt 204.1308 74.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U101" (pt -5.6612 -1.7915) (rotation 90.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U102") (pt 204.1308 90.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U102" (pt -5.6612 -2.0536) (rotation 90.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U103") (pt 204.1308 106.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U103" (pt -5.6612 -2.0536) (rotation 90.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U104") (pt 204.1308 122.5527)  (rotation 0.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U104" (pt -5.6612 -2.0826) (rotation 90.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C + input pads 16mm_1") (refDesRef "U105") (pt 216.2362 122.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U105" (pt -2.0536 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U106") (pt 220.9558 106.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U106" (pt -5.6612 -2.024) (rotation 90.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U107") (pt 220.9558 90.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U107" (pt -5.6612 -2.0536) (rotation 90.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U108") (pt 220.9558 74.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U108" (pt -5.6612 -2.053) (rotation 90.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U109") (pt 220.9558 58.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U109" (pt -5.6612 -2.0247) (rotation 90.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U110") (pt 220.9558 42.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U110" (pt -5.6612 -1.7915) (rotation 90.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U111") (pt 220.9558 26.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U111" (pt -5.6612 -1.5294) (rotation 90.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "APA102C_0") (refDesRef "U112") (pt 220.9558 10.5527)  (rotation 180.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "U112" (pt -5.6612 -1.7915) (rotation 90.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "LED halfpads in_2") (refDesRef "IN") (pt 6.3022 10.5527)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "IN" (pt -0.7142 7.5587) (rotation 0.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+    (pattern (patternRef "LED halfpads out_3") (refDesRef "OUT") (pt 226.6112 10.5254)  (rotation 270.0) (patternGraphicsNameRef "Primary")
+      (patternGraphicsRef 
+        (patternGraphicsNameRef "Primary")
+        (attr "RefDes" "OUT" (pt -4.6808 -1.7771) (rotation 90.0) (isVisible True) (justify upperleft) (textStyleRef "textstyle0") )
+      )
+    )
+  )
+  (layerContents (layerNumRef 1)
+    (line (pt 5.7933 14.3627) (pt 5.1683 14.3627) (width 1.25) (netNameRef "GND") )
+    (line (pt 10.0433 8.7027) (pt 10.9345 8.7027) (width 1) (netNameRef "GND") )
+    (line (pt 10.9345 8.7027) (pt 12.5232 10.2914) (width 1.27) (netNameRef "GND") )
+    (line (pt 12.5232 10.2914) (pt 12.5232 12.9292) (width 1.27) (netNameRef "GND") )
+    (line (pt 12.5232 12.9292) (pt 11.0678 14.3846) (width 1.27) (netNameRef "GND") )
+    (line (pt 11.0678 14.3846) (pt 8.405 14.3846) (width 1.27) (netNameRef "GND") )
+    (line (pt 8.405 14.3846) (pt 5.8152 14.3846) (width 1.27) (netNameRef "GND") )
+    (line (pt 5.8152 14.3846) (pt 5.7933 14.3627) (width 1.27) (netNameRef "GND") )
+    (line (pt 14.3933 24.0527) (pt 14.3933 25.2036) (width 1) (netNameRef "GND") )
+    (line (pt 14.3933 25.2036) (pt 13.0235 26.5734) (width 1.27) (netNameRef "GND") )
+    (line (pt 13.0235 26.5734) (pt 9.7944 26.5734) (width 1.27) (netNameRef "GND") )
+    (line (pt 9.7944 26.5734) (pt 9.3395 26.1186) (width 1.27) (netNameRef "GND") )
+    (line (pt 9.3395 26.1186) (pt 9.3395 15.3192) (width 1.27) (netNameRef "GND") )
+    (line (pt 9.3395 15.3192) (pt 8.405 14.3846) (width 1.27) (netNameRef "GND") )
+    (line (pt 14.3933 40.0527) (pt 14.3933 40.9496) (width 1) (netNameRef "GND") )
+    (line (pt 14.3933 40.9496) (pt 12.9141 42.4289) (width 1.27) (netNameRef "GND") )
+    (line (pt 12.9141 42.4289) (pt 10.6422 42.4289) (width 1.27) (netNameRef "GND") )
+    (line (pt 10.6422 42.4289) (pt 9.4599 41.2466) (width 1.27) (netNameRef "GND") )
+    (line (pt 9.4599 41.2466) (pt 9.3395 41.1262) (width 1.27) (netNameRef "GND") )
+    (line (pt 9.3395 41.1262) (pt 9.3395 26.1186) (width 1.27) (netNameRef "GND") )
+    (line (pt 14.3933 56.0527) (pt 14.3933 57.3146) (width 1) (netNameRef "GND") )
+    (line (pt 14.3933 57.3146) (pt 13.3406 58.3672) (width 1.27) (netNameRef "GND") )
+    (line (pt 13.3406 58.3672) (pt 10.5438 58.3672) (width 1.27) (netNameRef "GND") )
+    (line (pt 10.5438 58.3672) (pt 8.8458 56.6692) (width 1.27) (netNameRef "GND") )
+    (line (pt 8.8458 56.6692) (pt 8.8458 41.8608) (width 1.27) (netNameRef "GND") )
+    (line (pt 8.8458 41.8608) (pt 9.4599 41.2466) (width 1.27) (netNameRef "GND") )
+    (line (pt 14.3933 72.0527) (pt 14.3933 72.8791) (width 1) (netNameRef "GND") )
+    (line (pt 14.3933 72.8791) (pt 12.829 74.4434) (width 1.27) (netNameRef "GND") )
+    (line (pt 12.829 74.4434) (pt 10.1936 74.4434) (width 1.27) (netNameRef "GND") )
+    (line (pt 10.1936 74.4434) (pt 8.4597 72.7096) (width 1.27) (netNameRef "GND") )
+    (line (pt 8.4597 72.7096) (pt 8.4597 56.3124) (width 1.27) (netNameRef "GND") )
+    (line (pt 8.4597 56.3124) (pt 8.8458 56.6692) (width 1.27) (netNameRef "GND") )
+    (line (pt 14.3933 88.0527) (pt 14.3933 88.7383) (width 1) (netNameRef "GND") )
+    (line (pt 14.3933 88.7383) (pt 12.9033 90.2283) (width 1.27) (netNameRef "GND") )
+    (line (pt 12.9033 90.2283) (pt 10.3624 90.2283) (width 1.27) (netNameRef "GND") )
+    (line (pt 10.3624 90.2283) (pt 8.245 88.1109) (width 1.27) (netNameRef "GND") )
+    (line (pt 8.245 88.1109) (pt 8.245 73.1029) (width 1.27) (netNameRef "GND") )
+    (line (pt 8.245 73.1029) (pt 8.549 72.7989) (width 1.27) (netNameRef "GND") )
+    (line (pt 14.3933 104.0527) (pt 14.3933 104.6576) (width 1) (netNameRef "GND") )
+    (line (pt 14.3933 104.6576) (pt 12.3806 106.6703) (width 1.27) (netNameRef "GND") )
+    (line (pt 12.3806 106.6703) (pt 9.9933 106.6703) (width 1.27) (netNameRef "GND") )
+    (line (pt 9.9933 106.6703) (pt 7.9244 104.6013) (width 1.27) (netNameRef "GND") )
+    (line (pt 7.9244 104.6013) (pt 7.9244 87.9441) (width 1.27) (netNameRef "GND") )
+    (line (pt 7.9244 87.9441) (pt 8.245 88.1109) (width 1.27) (netNameRef "GND") )
+    (line (pt 14.3933 120.0527) (pt 14.3933 120.924) (width 1) (netNameRef "GND") )
+    (line (pt 14.3933 120.924) (pt 12.8402 122.4771) (width 1.27) (netNameRef "GND") )
+    (line (pt 12.8402 122.4771) (pt 9.5766 122.4771) (width 1.27) (netNameRef "GND") )
+    (line (pt 9.5766 122.4771) (pt 7.9172 120.8177) (width 1.27) (netNameRef "GND") )
+    (line (pt 7.9172 120.8177) (pt 7.9172 104.5281) (width 1.27) (netNameRef "GND") )
+    (line (pt 7.9172 120.8177) (pt 7.9172 125.3956) (width 1.27) (netNameRef "GND") )
+    (line (pt 7.9172 125.3956) (pt 11.4077 128.8861) (width 1.27) (netNameRef "GND") )
+    (line (pt 11.4077 128.8861) (pt 18.0199 128.8861) (width 1.27) (netNameRef "GND") )
+    (line (pt 18.0199 128.8861) (pt 20.5433 126.3627) (width 1.27) (netNameRef "GND") )
+    (line (pt 26.0433 120.7027) (pt 26.8362 120.7027) (width 1) (netNameRef "GND") )
+    (line (pt 26.8362 120.7027) (pt 28.4115 122.278) (width 1.27) (netNameRef "GND") )
+    (line (pt 28.4115 122.278) (pt 28.4115 124.3329) (width 1.27) (netNameRef "GND") )
+    (line (pt 28.4115 124.3329) (pt 26.4371 126.3073) (width 1.27) (netNameRef "GND") )
+    (line (pt 26.4371 126.3073) (pt 20.5987 126.3073) (width 1.27) (netNameRef "GND") )
+    (line (pt 20.5987 126.3073) (pt 20.5433 126.3627) (width 1.27) (netNameRef "GND") )
+    (line (pt 26.6933 109.0527) (pt 26.6933 108.2603) (width 1) (netNameRef "GND") )
+    (line (pt 26.6933 108.2603) (pt 28.3364 106.6173) (width 1.27) (netNameRef "GND") )
+    (line (pt 28.3364 106.6173) (pt 32.8235 106.6173) (width 1.27) (netNameRef "GND") )
+    (line (pt 32.8235 106.6173) (pt 35.5259 109.3197) (width 1.27) (netNameRef "GND") )
+    (line (pt 35.5259 109.3197) (pt 35.5259 122.2202) (width 1.27) (netNameRef "GND") )
+    (line (pt 35.5259 122.2202) (pt 31.4388 126.3073) (width 1.27) (netNameRef "GND") )
+    (line (pt 31.4388 126.3073) (pt 26.524 126.3073) (width 1.27) (netNameRef "GND") )
+    (line (pt 26.6933 93.0527) (pt 26.6933 92.1783) (width 1) (netNameRef "GND") )
+    (line (pt 26.6933 92.1783) (pt 28.4099 90.4617) (width 1.27) (netNameRef "GND") )
+    (line (pt 28.4099 90.4617) (pt 33.8707 90.4617) (width 1.27) (netNameRef "GND") )
+    (line (pt 33.8707 90.4617) (pt 34.9011 91.492) (width 1.27) (netNameRef "GND") )
+    (line (pt 34.9011 91.492) (pt 34.9011 109.1173) (width 1.27) (netNameRef "GND") )
+    (line (pt 34.9011 109.1173) (pt 35.5259 109.3197) (width 1.27) (netNameRef "GND") )
+    (line (pt 26.6933 77.0527) (pt 26.6933 76.1049) (width 1) (netNameRef "GND") )
+    (line (pt 26.6933 76.1049) (pt 28.2039 74.5944) (width 1.27) (netNameRef "GND") )
+    (line (pt 28.2039 74.5944) (pt 32.6343 74.5944) (width 1.27) (netNameRef "GND") )
+    (line (pt 32.6343 74.5944) (pt 33.6647 75.6247) (width 1.27) (netNameRef "GND") )
+    (line (pt 33.6647 75.6247) (pt 33.6647 90.2556) (width 1.27) (netNameRef "GND") )
+    (line (pt 33.6647 90.2556) (pt 33.8707 90.4617) (width 1.27) (netNameRef "GND") )
+    (line (pt 26.6933 61.0527) (pt 26.6933 60.2282) (width 1) (netNameRef "GND") )
+    (line (pt 26.6933 60.2282) (pt 28.4187 58.5028) (width 1.27) (netNameRef "GND") )
+    (line (pt 28.4187 58.5028) (pt 31.5308 58.5028) (width 1.27) (netNameRef "GND") )
+    (line (pt 31.5308 58.5028) (pt 33.5192 60.4912) (width 1.27) (netNameRef "GND") )
+    (line (pt 33.5192 60.4912) (pt 33.5192 75.8843) (width 1.27) (netNameRef "GND") )
+    (line (pt 33.5192 75.8843) (pt 33.6647 75.6247) (width 1.27) (netNameRef "GND") )
+    (line (pt 26.6933 45.0527) (pt 26.6933 44.2012) (width 1) (netNameRef "GND") )
+    (line (pt 26.6933 44.2012) (pt 28.2918 42.6027) (width 1.27) (netNameRef "GND") )
+    (line (pt 28.2918 42.6027) (pt 32.5344 42.6027) (width 1.27) (netNameRef "GND") )
+    (line (pt 32.5344 42.6027) (pt 33.3695 43.4378) (width 1.27) (netNameRef "GND") )
+    (line (pt 33.3695 43.4378) (pt 33.5192 43.5875) (width 1.27) (netNameRef "GND") )
+    (line (pt 33.5192 43.5875) (pt 33.5192 60.4912) (width 1.27) (netNameRef "GND") )
+    (line (pt 26.6933 29.0527) (pt 26.6933 27.879) (width 1) (netNameRef "GND") )
+    (line (pt 26.6933 27.879) (pt 28.1838 26.3885) (width 1.27) (netNameRef "GND") )
+    (line (pt 28.1838 26.3885) (pt 32.5052 26.3885) (width 1.27) (netNameRef "GND") )
+    (line (pt 32.5052 26.3885) (pt 33.3695 27.2528) (width 1.27) (netNameRef "GND") )
+    (line (pt 33.3695 27.2528) (pt 33.3695 43.4378) (width 1.27) (netNameRef "GND") )
+    (line (pt 26.6933 13.0527) (pt 26.6933 12.2379) (width 1) (netNameRef "GND") )
+    (line (pt 26.6933 12.2379) (pt 28.3911 10.5401) (width 1.27) (netNameRef "GND") )
+    (line (pt 28.3911 10.5401) (pt 30.1974 10.5401) (width 1.27) (netNameRef "GND") )
+    (line (pt 30.1974 10.5401) (pt 32.2693 12.612) (width 1.27) (netNameRef "GND") )
+    (line (pt 32.2693 12.612) (pt 32.2693 13.7277) (width 1.27) (netNameRef "GND") )
+    (line (pt 32.2693 13.7277) (pt 32.9599 14.4183) (width 1.27) (netNameRef "GND") )
+    (line (pt 32.9599 14.4183) (pt 34.2891 14.4183) (width 1.27) (netNameRef "GND") )
+    (line (pt 34.2891 14.4183) (pt 36.4877 14.4183) (width 1.27) (netNameRef "GND") )
+    (line (pt 36.4877 14.4183) (pt 36.5433 14.3627) (width 1.27) (netNameRef "GND") )
+    (line (pt 33.3695 27.2528) (pt 33.3695 15.3379) (width 1.27) (netNameRef "GND") )
+    (line (pt 33.3695 15.3379) (pt 34.2891 14.4183) (width 1.27) (netNameRef "GND") )
+    (line (pt 42.0433 8.7027) (pt 42.6874 8.7027) (width 1) (netNameRef "GND") )
+    (line (pt 42.6874 8.7027) (pt 44.5013 10.5166) (width 1.27) (netNameRef "GND") )
+    (line (pt 44.5013 10.5166) (pt 44.5013 12.787) (width 1.27) (netNameRef "GND") )
+    (line (pt 44.5013 12.787) (pt 42.9295 14.3587) (width 1.27) (netNameRef "GND") )
+    (line (pt 42.9295 14.3587) (pt 36.5473 14.3587) (width 1.27) (netNameRef "GND") )
+    (line (pt 36.5473 14.3587) (pt 36.5433 14.3627) (width 1.27) (netNameRef "GND") )
+    (line (pt 15.0433 12.4027) (pt 15.0433 12.6377) (width 0.7112) (netNameRef "Net 0") )
+    (line (pt 15.0433 12.6377) (pt 10.704 16.977) (width 0.7112) (netNameRef "Net 0") )
+    (line (pt 10.704 16.977) (pt 10.704 24.042) (width 0.7112) (netNameRef "Net 0") )
+    (line (pt 10.704 24.042) (pt 10.6933 24.0527) (width 0.7112) (netNameRef "Net 0") )
+    (line (pt 15.0433 10.5527) (pt 15.5588 10.5527) (width 0.7112) (netNameRef "Net 1") )
+    (line (pt 15.5588 10.5527) (pt 16.4345 11.4284) (width 0.7112) (netNameRef "Net 1") )
+    (line (pt 16.4345 11.4284) (pt 16.4345 13.2476) (width 0.7112) (netNameRef "Net 1") )
+    (line (pt 16.4345 13.2476) (pt 12.5232 17.1589) (width 0.7112) (netNameRef "Net 1") )
+    (line (pt 12.5232 17.1589) (pt 12.5232 24.0326) (width 0.7112) (netNameRef "Net 1") )
+    (line (pt 12.5232 24.0326) (pt 12.5433 24.0527) (width 0.7112) (netNameRef "Net 1") )
+    (line (pt 10.6933 29.0527) (pt 10.6933 40.0527) (width 0.7112) (netNameRef "Net 4") )
+    (line (pt 12.5433 40.0527) (pt 12.5433 29.0527) (width 0.7112) (netNameRef "Net 5") )
+    (line (pt 10.6933 45.0527) (pt 10.6933 56.0527) (width 0.7112) (netNameRef "Net 6") )
+    (line (pt 12.5433 56.0527) (pt 12.5433 45.0527) (width 0.7112) (netNameRef "Net 7") )
+    (line (pt 10.6933 72.0527) (pt 10.6933 61.0527) (width 0.7112) (netNameRef "Net 8") )
+    (line (pt 12.5433 61.0527) (pt 12.5433 72.0527) (width 0.7112) (netNameRef "Net 9") )
+    (line (pt 10.6933 77.0527) (pt 10.6933 88.0527) (width 0.7112) (netNameRef "Net 10") )
+    (line (pt 12.5433 77.0527) (pt 12.5433 88.0527) (width 0.7112) (netNameRef "Net 11") )
+    (line (pt 10.6933 93.0527) (pt 10.6933 104.0527) (width 0.7112) (netNameRef "Net 12") )
+    (line (pt 12.5433 93.0527) (pt 12.5433 104.0527) (width 0.7112) (netNameRef "Net 13") )
+    (line (pt 10.6933 109.0527) (pt 10.6933 120.0527) (width 0.7112) (netNameRef "Net 14") )
+    (line (pt 12.5433 109.0527) (pt 12.5433 120.0527) (width 0.7112) (netNameRef "Net 15") )
+    (line (pt 30.3933 109.0527) (pt 30.3933 115.5578) (width 0.7112) (netNameRef "Net 16") )
+    (line (pt 30.3933 115.5578) (pt 33.9453 119.1098) (width 0.7112) (netNameRef "Net 16") )
+    (line (pt 33.9453 119.1098) (pt 33.9453 121.5007) (width 0.7112) (netNameRef "Net 16") )
+    (line (pt 33.9453 121.5007) (pt 31.0433 124.4027) (width 0.7112) (netNameRef "Net 16") )
+    (line (pt 28.5433 109.0527) (pt 28.5433 115.5435) (width 0.7112) (netNameRef "Net 17") )
+    (line (pt 28.5433 115.5435) (pt 32.6195 119.6197) (width 0.7112) (netNameRef "Net 17") )
+    (line (pt 32.6195 119.6197) (pt 32.6195 120.9765) (width 0.7112) (netNameRef "Net 17") )
+    (line (pt 32.6195 120.9765) (pt 31.0433 122.5527) (width 0.7112) (netNameRef "Net 17") )
+    (line (pt 30.3933 93.0527) (pt 30.3933 104.0527) (width 0.7112) (netNameRef "Net 20") )
+    (line (pt 28.5433 104.0527) (pt 28.5433 93.0527) (width 0.7112) (netNameRef "Net 21") )
+    (line (pt 30.3933 88.0527) (pt 30.3933 77.0527) (width 0.7112) (netNameRef "Net 22") )
+    (line (pt 28.5433 77.0527) (pt 28.5433 88.0527) (width 0.7112) (netNameRef "Net 23") )
+    (line (pt 30.3933 61.0527) (pt 30.3933 72.0527) (width 0.7112) (netNameRef "Net 24") )
+    (line (pt 28.5433 72.0527) (pt 28.5433 61.0527) (width 0.7112) (netNameRef "Net 25") )
+    (line (pt 30.3933 45.0527) (pt 30.3933 56.0527) (width 0.7112) (netNameRef "Net 26") )
+    (line (pt 28.5433 56.0527) (pt 28.5433 45.0527) (width 0.7112) (netNameRef "Net 27") )
+    (line (pt 30.3933 29.0527) (pt 30.3933 40.0527) (width 0.7112) (netNameRef "Net 28") )
+    (line (pt 28.5433 40.0527) (pt 28.5433 29.0527) (width 0.7112) (netNameRef "Net 29") )
+    (line (pt 30.3933 24.0527) (pt 30.3933 13.0527) (width 0.7112) (netNameRef "Net 30") )
+    (line (pt 28.5433 13.0527) (pt 28.5433 24.0527) (width 0.7112) (netNameRef "Net 31") )
+    (line (pt 5.7933 6.7427) (pt 5.1683 6.7427) (width 1.25) (netNameRef "Net 34") )
+    (line (pt 15.0433 8.7027) (pt 15.0433 7.6722) (width 1) (netNameRef "Net 34") )
+    (line (pt 15.0433 7.6722) (pt 14.115 6.7439) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 14.115 6.7439) (pt 5.7945 6.7439) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 5.7945 6.7439) (pt 5.7933 6.7427) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 14.115 6.7439) (pt 16.2981 6.7439) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 16.2981 6.7439) (pt 17.708 8.1538) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 17.708 8.1538) (pt 17.708 25.738) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 17.708 25.738) (pt 15.3726 28.0734) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 15.3726 28.0734) (pt 14.3933 29.0527) (width 1) (netNameRef "Net 34") )
+    (line (pt 14.3933 45.0527) (pt 15.4151 45.0527) (width 1) (netNameRef "Net 34") )
+    (line (pt 15.4151 45.0527) (pt 17.722 42.7459) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 17.722 42.7459) (pt 17.722 25.8146) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 14.3933 61.0527) (pt 15.5283 61.0527) (width 1) (netNameRef "Net 34") )
+    (line (pt 15.5283 61.0527) (pt 15.9491 61.0527) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 15.9491 61.0527) (pt 17.2362 59.7656) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 17.2362 59.7656) (pt 17.2362 58.2646) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 17.2362 58.2646) (pt 17.2362 43.5524) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 17.2362 43.5524) (pt 17.722 42.7459) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 14.3933 77.0527) (pt 15.4906 77.0527) (width 1) (netNameRef "Net 34") )
+    (line (pt 15.4906 77.0527) (pt 17.9612 74.5821) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 17.9612 74.5821) (pt 17.9612 58.9896) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 17.9612 58.9896) (pt 17.2362 58.2646) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 14.3933 93.0527) (pt 15.0884 93.0527) (width 1) (netNameRef "Net 34") )
+    (line (pt 15.0884 93.0527) (pt 17.7387 90.4024) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 17.7387 90.4024) (pt 17.8792 90.2619) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 17.8792 90.2619) (pt 17.8792 74.6641) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 14.3933 109.0527) (pt 15.5283 109.0527) (width 1) (netNameRef "Net 34") )
+    (line (pt 15.5283 109.0527) (pt 16.2582 109.0527) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 16.2582 109.0527) (pt 17.7387 107.5722) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 17.7387 107.5722) (pt 17.7387 90.4024) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 17.7387 107.5722) (pt 17.7387 115.9381) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 17.7387 115.9381) (pt 20.5433 118.7427) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 14.3933 125.0527) (pt 14.3933 123.6677) (width 1) (netNameRef "Net 34") )
+    (line (pt 14.3933 123.6677) (pt 14.3933 123.5232) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 14.3933 123.5232) (pt 15.9609 121.9556) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 15.9609 121.9556) (pt 15.9609 119.6589) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 15.9609 119.6589) (pt 16.7264 118.8934) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 16.7264 118.8934) (pt 20.3926 118.8934) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 20.3926 118.8934) (pt 20.5433 118.7427) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 31.0433 120.7027) (pt 29.5761 120.7027) (width 1) (netNameRef "Net 34") )
+    (line (pt 29.5761 120.7027) (pt 27.6459 118.7725) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 27.6459 118.7725) (pt 23.3815 118.7725) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 23.3815 118.7725) (pt 20.5731 118.7725) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 20.5731 118.7725) (pt 20.5433 118.7427) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 26.6933 104.0527) (pt 25.9619 104.0527) (width 1) (netNameRef "Net 34") )
+    (line (pt 25.9619 104.0527) (pt 24.5505 105.4641) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 24.5505 105.4641) (pt 24.5505 117.6035) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 24.5505 117.6035) (pt 23.3815 118.7725) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 26.6933 88.0527) (pt 25.7514 88.0527) (width 1) (netNameRef "Net 34") )
+    (line (pt 25.7514 88.0527) (pt 24.5977 89.2064) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 24.5977 89.2064) (pt 24.5977 105.3747) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 26.6933 72.0527) (pt 26.006 72.0527) (width 1) (netNameRef "Net 34") )
+    (line (pt 26.006 72.0527) (pt 24.9542 73.1044) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 24.9542 73.1044) (pt 24.5977 73.461) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 24.5977 73.461) (pt 24.5977 89.2064) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 26.6933 56.0527) (pt 25.7683 56.0527) (width 1) (netNameRef "Net 34") )
+    (line (pt 25.7683 56.0527) (pt 24.3555 57.4654) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 24.3555 57.4654) (pt 24.3555 72.5057) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 24.3555 72.5057) (pt 24.9542 73.1044) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 26.6933 40.0527) (pt 25.7107 40.0527) (width 1) (netNameRef "Net 34") )
+    (line (pt 25.7107 40.0527) (pt 24.215 41.5484) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 24.215 41.5484) (pt 24.215 57.4727) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 24.215 57.4727) (pt 24.3555 57.4654) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 26.6933 24.0527) (pt 25.5697 24.0527) (width 1) (netNameRef "Net 34") )
+    (line (pt 25.5697 24.0527) (pt 23.9411 25.6814) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 23.9411 25.6814) (pt 23.9411 41.6147) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 23.9411 41.6147) (pt 24.215 41.5484) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 26.6933 8.0527) (pt 26.0441 8.0527) (width 1) (netNameRef "Net 34") )
+    (line (pt 26.0441 8.0527) (pt 24.3536 9.7432) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 24.3536 9.7432) (pt 24.3536 25.4831) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 24.3536 25.4831) (pt 23.9411 25.6814) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 24.3536 9.7432) (pt 24.3536 6.1838) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 24.3536 6.1838) (pt 25.2567 5.2807) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 25.2567 5.2807) (pt 35.0813 5.2807) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 35.0813 5.2807) (pt 36.5433 6.7427) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 47.0433 8.7027) (pt 47.7123 8.7027) (width 1) (netNameRef "Net 34") )
+    (line (pt 47.7123 8.7027) (pt 48.4744 7.9406) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 48.4744 7.9406) (pt 48.4744 7.504) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 48.4744 7.504) (pt 47.8195 6.8491) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 47.8195 6.8491) (pt 36.6497 6.8491) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 36.6497 6.8491) (pt 36.5433 6.7427) (width 1.27) (netNameRef "Net 34") )
+    (line (pt 42.6933 40.0527) (pt 42.6933 29.0527) (width 0.7112) (netNameRef "Net 36") )
+    (line (pt 44.5433 29.0527) (pt 44.5433 40.0527) (width 0.7112) (netNameRef "Net 37") )
+    (line (pt 42.6933 56.0527) (pt 42.6933 45.0527) (width 0.7112) (netNameRef "Net 38") )
+    (line (pt 44.5433 45.0527) (pt 44.5433 56.0527) (width 0.7112) (netNameRef "Net 39") )
+    (line (pt 42.6933 61.0527) (pt 42.6933 72.0527) (width 0.7112) (netNameRef "Net 40") )
+    (line (pt 44.5433 61.0527) (pt 44.5433 72.0527) (width 0.7112) (netNameRef "Net 41") )
+    (line (pt 42.6933 77.0527) (pt 42.6933 88.0527) (width 0.7112) (netNameRef "Net 42") )
+    (line (pt 44.5433 77.0527) (pt 44.5433 88.0527) (width 0.7112) (netNameRef "Net 43") )
+    (line (pt 42.6933 93.0527) (pt 42.6933 104.0527) (width 0.7112) (netNameRef "Net 44") )
+    (line (pt 44.5433 93.0527) (pt 44.5433 104.0527) (width 0.7112) (netNameRef "Net 45") )
+    (line (pt 42.6933 109.0527) (pt 42.6933 120.0527) (width 0.7112) (netNameRef "Net 46") )
+    (line (pt 44.5433 109.0527) (pt 44.5433 120.0527) (width 0.7112) (netNameRef "Net 47") )
+    (line (pt 138.6933 29.0527) (pt 138.6933 40.0527) (width 0.7112) (netNameRef "Net 51") )
+    (line (pt 62.3933 93.0527) (pt 62.3933 104.0527) (width 0.7112) (netNameRef "Net 52") )
+    (line (pt 60.5433 104.0527) (pt 60.5433 93.0527) (width 0.7112) (netNameRef "Net 53") )
+    (line (pt 62.3933 88.0527) (pt 62.3933 77.0527) (width 0.7112) (netNameRef "Net 54") )
+    (line (pt 60.5433 77.0527) (pt 60.5433 88.0527) (width 0.7112) (netNameRef "Net 55") )
+    (line (pt 62.3933 61.0527) (pt 62.3933 72.0527) (width 0.7112) (netNameRef "Net 56") )
+    (line (pt 60.5433 72.0527) (pt 60.5433 61.0527) (width 0.7112) (netNameRef "Net 57") )
+    (line (pt 62.3933 45.0527) (pt 62.3933 56.0527) (width 0.7112) (netNameRef "Net 58") )
+    (line (pt 60.5433 56.0527) (pt 60.5433 45.0527) (width 0.7112) (netNameRef "Net 59") )
+    (line (pt 62.3933 40.0527) (pt 62.3933 29.0527) (width 0.7112) (netNameRef "Net 60") )
+    (line (pt 60.5433 29.0527) (pt 60.5433 40.0527) (width 0.7112) (netNameRef "Net 61") )
+    (line (pt 62.3933 13.0527) (pt 62.3933 24.0527) (width 0.7112) (netNameRef "Net 62") )
+    (line (pt 60.5433 24.0527) (pt 60.5433 13.0527) (width 0.7112) (netNameRef "Net 63") )
+    (line (pt 140.5433 29.0527) (pt 140.5433 40.0527) (width 0.7112) (netNameRef "Net 66") )
+    (line (pt 138.6933 56.0527) (pt 138.6933 45.0527) (width 0.7112) (netNameRef "Net 67") )
+    (line (pt 74.6933 40.0527) (pt 74.6933 29.0527) (width 0.7112) (netNameRef "Net 68") )
+    (line (pt 76.5433 29.0527) (pt 76.5433 40.0527) (width 0.7112) (netNameRef "Net 69") )
+    (line (pt 74.6933 45.0527) (pt 74.6933 56.0527) (width 0.7112) (netNameRef "Net 70") )
+    (line (pt 76.5433 56.0527) (pt 76.5433 45.0527) (width 0.7112) (netNameRef "Net 71") )
+    (line (pt 74.6933 72.0527) (pt 74.6933 61.0527) (width 0.7112) (netNameRef "Net 72") )
+    (line (pt 76.5433 61.0527) (pt 76.5433 72.0527) (width 0.7112) (netNameRef "Net 73") )
+    (line (pt 74.6933 77.0527) (pt 74.6933 88.0527) (width 0.7112) (netNameRef "Net 74") )
+    (line (pt 76.5433 88.0527) (pt 76.5433 77.0527) (width 0.7112) (netNameRef "Net 75") )
+    (line (pt 74.6933 104.0527) (pt 74.6933 93.0527) (width 0.7112) (netNameRef "Net 76") )
+    (line (pt 76.5433 93.0527) (pt 76.5433 104.0527) (width 0.7112) (netNameRef "Net 77") )
+    (line (pt 74.6933 109.0527) (pt 74.6933 120.0527) (width 0.7112) (netNameRef "Net 78") )
+    (line (pt 76.5433 109.0527) (pt 76.5433 120.0527) (width 0.7112) (netNameRef "Net 79") )
+    (line (pt 140.5433 45.0527) (pt 140.5433 56.0527) (width 0.7112) (netNameRef "Net 82") )
+    (line (pt 138.6933 72.0527) (pt 138.6933 61.0527) (width 0.7112) (netNameRef "Net 83") )
+    (line (pt 94.3933 104.0527) (pt 94.3933 93.0527) (width 0.7112) (netNameRef "Net 84") )
+    (line (pt 92.5433 93.0527) (pt 92.5433 104.0527) (width 0.7112) (netNameRef "Net 85") )
+    (line (pt 94.3933 88.0527) (pt 94.3933 77.0527) (width 0.7112) (netNameRef "Net 86") )
+    (line (pt 92.5433 77.0527) (pt 92.5433 88.0527) (width 0.7112) (netNameRef "Net 87") )
+    (line (pt 94.3933 61.0527) (pt 94.3933 72.0527) (width 0.7112) (netNameRef "Net 88") )
+    (line (pt 92.5433 61.0527) (pt 92.5433 72.0527) (width 0.7112) (netNameRef "Net 89") )
+    (line (pt 94.3933 45.0527) (pt 94.3933 56.0527) (width 0.7112) (netNameRef "Net 90") )
+    (line (pt 92.5433 45.0527) (pt 92.5433 56.0527) (width 0.7112) (netNameRef "Net 91") )
+    (line (pt 94.3933 29.0527) (pt 94.3933 40.0527) (width 0.7112) (netNameRef "Net 92") )
+    (line (pt 92.5433 29.0527) (pt 92.5433 40.0527) (width 0.7112) (netNameRef "Net 93") )
+    (line (pt 94.3933 13.0527) (pt 94.3933 24.0527) (width 0.7112) (netNameRef "Net 94") )
+    (line (pt 92.5433 13.0527) (pt 92.5433 24.0527) (width 0.7112) (netNameRef "Net 95") )
+    (line (pt 140.5433 61.0527) (pt 140.5433 72.0527) (width 0.7112) (netNameRef "Net 98") )
+    (line (pt 138.6933 77.0527) (pt 138.6933 88.0527) (width 0.7112) (netNameRef "Net 99") )
+    (line (pt 106.6933 40.0527) (pt 106.6933 29.0527) (width 0.7112) (netNameRef "Net 100") )
+    (line (pt 108.5433 29.0527) (pt 108.5433 40.0527) (width 0.7112) (netNameRef "Net 101") )
+    (line (pt 106.6933 45.0527) (pt 106.6933 56.0527) (width 0.7112) (netNameRef "Net 102") )
+    (line (pt 108.5433 45.0527) (pt 108.5433 56.0527) (width 0.7112) (netNameRef "Net 103") )
+    (line (pt 106.6933 61.0527) (pt 106.6933 72.0527) (width 0.7112) (netNameRef "Net 104") )
+    (line (pt 108.5433 61.0527) (pt 108.5433 72.0527) (width 0.7112) (netNameRef "Net 105") )
+    (line (pt 106.6933 77.0527) (pt 106.6933 88.0527) (width 0.7112) (netNameRef "Net 106") )
+    (line (pt 108.5433 77.0527) (pt 108.5433 88.0527) (width 0.7112) (netNameRef "Net 107") )
+    (line (pt 106.6933 93.0527) (pt 106.6933 104.0527) (width 0.7112) (netNameRef "Net 108") )
+    (line (pt 108.5433 93.0527) (pt 108.5433 104.0527) (width 0.7112) (netNameRef "Net 109") )
+    (line (pt 106.6933 109.0527) (pt 106.6933 120.0527) (width 0.7112) (netNameRef "Net 110") )
+    (line (pt 108.5433 120.0527) (pt 108.5433 109.0527) (width 0.7112) (netNameRef "Net 111") )
+    (line (pt 126.3933 93.0527) (pt 126.3933 104.0527) (width 0.7112) (netNameRef "Net 116") )
+    (line (pt 124.5433 104.0527) (pt 124.5433 93.0527) (width 0.7112) (netNameRef "Net 117") )
+    (line (pt 126.3933 77.0527) (pt 126.3933 88.0527) (width 0.7112) (netNameRef "Net 118") )
+    (line (pt 124.5433 88.0527) (pt 124.5433 77.0527) (width 0.7112) (netNameRef "Net 119") )
+    (line (pt 126.3933 61.0527) (pt 126.3933 72.0527) (width 0.7112) (netNameRef "Net 120") )
+    (line (pt 124.5433 61.0527) (pt 124.5433 72.0527) (width 0.7112) (netNameRef "Net 121") )
+    (line (pt 126.3933 45.0527) (pt 126.3933 56.0527) (width 0.7112) (netNameRef "Net 122") )
+    (line (pt 124.5433 56.0527) (pt 124.5433 45.0527) (width 0.7112) (netNameRef "Net 123") )
+    (line (pt 126.3933 29.0527) (pt 126.3933 40.0527) (width 0.7112) (netNameRef "Net 124") )
+    (line (pt 124.5433 40.0527) (pt 124.5433 29.0527) (width 0.7112) (netNameRef "Net 125") )
+    (line (pt 126.3933 13.0527) (pt 126.3933 24.0527) (width 0.7112) (netNameRef "Net 126") )
+    (line (pt 124.5433 24.0527) (pt 124.5433 13.0527) (width 0.7112) (netNameRef "Net 127") )
+    (line (pt 12.5433 125.0527) (pt 12.5433 125.1864) (width 0.7112) (netNameRef "Net 128") )
+    (line (pt 12.5433 125.1864) (pt 13.7448 126.3879) (width 0.7112) (netNameRef "Net 128") )
+    (line (pt 13.7448 126.3879) (pt 15.0744 126.3879) (width 0.7112) (netNameRef "Net 128") )
+    (line (pt 15.0744 126.3879) (pt 16.0012 125.4612) (width 0.7112) (netNameRef "Net 128") )
+    (line (pt 16.0012 125.4612) (pt 16.0012 123.8897) (width 0.7112) (netNameRef "Net 128") )
+    (line (pt 16.0012 123.8897) (pt 18.0561 121.8348) (width 0.7112) (netNameRef "Net 128") )
+    (line (pt 18.0561 121.8348) (pt 19.9912 121.8348) (width 0.7112) (netNameRef "Net 128") )
+    (line (pt 19.9912 121.8348) (pt 20.5433 121.2827) (width 0.7112) (netNameRef "Net 128") )
+    (line (pt 26.0433 122.5527) (pt 24.4554 122.5527) (width 0.7112) (netNameRef "Net 128") )
+    (line (pt 24.4554 122.5527) (pt 23.1331 121.2304) (width 0.7112) (netNameRef "Net 128") )
+    (line (pt 23.1331 121.2304) (pt 20.5956 121.2304) (width 0.7112) (netNameRef "Net 128") )
+    (line (pt 20.5956 121.2304) (pt 20.5433 121.2827) (width 0.7112) (netNameRef "Net 128") )
+    (line (pt 10.6933 125.0527) (pt 10.6933 125.1899) (width 0.7112) (netNameRef "Net 129") )
+    (line (pt 10.6933 125.1899) (pt 12.8986 127.3952) (width 0.7112) (netNameRef "Net 129") )
+    (line (pt 12.8986 127.3952) (pt 15.6788 127.3952) (width 0.7112) (netNameRef "Net 129") )
+    (line (pt 15.6788 127.3952) (pt 17.2503 125.8238) (width 0.7112) (netNameRef "Net 129") )
+    (line (pt 17.2503 125.8238) (pt 17.2503 124.4135) (width 0.7112) (netNameRef "Net 129") )
+    (line (pt 17.2503 124.4135) (pt 17.6129 124.0509) (width 0.7112) (netNameRef "Net 129") )
+    (line (pt 17.6129 124.0509) (pt 20.3151 124.0509) (width 0.7112) (netNameRef "Net 129") )
+    (line (pt 20.3151 124.0509) (pt 20.5433 123.8227) (width 0.7112) (netNameRef "Net 129") )
+    (line (pt 26.0433 124.4027) (pt 23.6863 124.4027) (width 0.7112) (netNameRef "Net 129") )
+    (line (pt 23.6863 124.4027) (pt 22.9316 123.648) (width 0.7112) (netNameRef "Net 129") )
+    (line (pt 22.9316 123.648) (pt 20.718 123.648) (width 0.7112) (netNameRef "Net 129") )
+    (line (pt 20.718 123.648) (pt 20.5433 123.8227) (width 0.7112) (netNameRef "Net 129") )
+    (line (pt 30.3933 8.0527) (pt 30.3933 8.3985) (width 0.7112) (netNameRef "Net 134") )
+    (line (pt 30.3933 8.3985) (pt 33.7568 11.762) (width 0.7112) (netNameRef "Net 134") )
+    (line (pt 33.7568 11.762) (pt 36.4826 11.762) (width 0.7112) (netNameRef "Net 134") )
+    (line (pt 36.4826 11.762) (pt 36.5433 11.8227) (width 0.7112) (netNameRef "Net 134") )
+    (line (pt 42.0433 12.4027) (pt 39.62 12.4027) (width 0.7112) (netNameRef "Net 134") )
+    (line (pt 39.62 12.4027) (pt 39.0001 11.7828) (width 0.7112) (netNameRef "Net 134") )
+    (line (pt 39.0001 11.7828) (pt 36.5832 11.7828) (width 0.7112) (netNameRef "Net 134") )
+    (line (pt 36.5832 11.7828) (pt 36.5433 11.8227) (width 0.7112) (netNameRef "Net 134") )
+    (line (pt 28.5433 8.0527) (pt 28.5433 7.7316) (width 0.7112) (netNameRef "Net 135") )
+    (line (pt 28.5433 7.7316) (pt 29.5599 6.7151) (width 0.7112) (netNameRef "Net 135") )
+    (line (pt 29.5599 6.7151) (pt 31.313 6.7151) (width 0.7112) (netNameRef "Net 135") )
+    (line (pt 31.313 6.7151) (pt 33.7568 9.1588) (width 0.7112) (netNameRef "Net 135") )
+    (line (pt 33.7568 9.1588) (pt 36.4194 9.1588) (width 0.7112) (netNameRef "Net 135") )
+    (line (pt 36.4194 9.1588) (pt 36.5433 9.2827) (width 0.7112) (netNameRef "Net 135") )
+    (line (pt 42.0433 10.5527) (pt 40.346 10.5527) (width 0.7112) (netNameRef "Net 135") )
+    (line (pt 40.346 10.5527) (pt 39.0001 9.2068) (width 0.7112) (netNameRef "Net 135") )
+    (line (pt 39.0001 9.2068) (pt 36.6192 9.2068) (width 0.7112) (netNameRef "Net 135") )
+    (line (pt 36.6192 9.2068) (pt 36.5433 9.2827) (width 0.7112) (netNameRef "Net 135") )
+    (line (pt 140.5433 77.0527) (pt 140.5433 88.0527) (width 0.7112) (netNameRef "Net 138") )
+    (line (pt 138.6933 93.0527) (pt 138.6933 104.0527) (width 0.7112) (netNameRef "Net 139") )
+    (line (pt 140.5433 104.0527) (pt 140.5433 93.0527) (width 0.7112) (netNameRef "Net 140") )
+    (line (pt 138.6933 109.0527) (pt 138.6933 120.0527) (width 0.7112) (netNameRef "Net 141") )
+    (line (pt 140.5433 109.0527) (pt 140.5433 120.0527) (width 0.7112) (netNameRef "Net 142") )
+    (line (pt 158.3933 93.0527) (pt 158.3933 104.0527) (width 0.7112) (netNameRef "Net 147") )
+    (line (pt 156.5433 104.0527) (pt 156.5433 93.0527) (width 0.7112) (netNameRef "Net 148") )
+    (line (pt 158.3933 77.0527) (pt 158.3933 88.0527) (width 0.7112) (netNameRef "Net 149") )
+    (line (pt 156.5433 77.0527) (pt 156.5433 88.0527) (width 0.7112) (netNameRef "Net 150") )
+    (line (pt 158.3933 61.0527) (pt 158.3933 72.0527) (width 0.7112) (netNameRef "Net 151") )
+    (line (pt 156.5433 72.0527) (pt 156.5433 61.0527) (width 0.7112) (netNameRef "Net 152") )
+    (line (pt 158.3933 45.0527) (pt 158.3933 56.0527) (width 0.7112) (netNameRef "Net 153") )
+    (line (pt 156.5433 56.0527) (pt 156.5433 45.0527) (width 0.7112) (netNameRef "Net 154") )
+    (line (pt 158.3933 29.0527) (pt 158.3933 40.0527) (width 0.7112) (netNameRef "Net 155") )
+    (line (pt 156.5433 40.0527) (pt 156.5433 29.0527) (width 0.7112) (netNameRef "Net 156") )
+    (line (pt 158.3933 24.0527) (pt 158.3933 13.0527) (width 0.7112) (netNameRef "Net 157") )
+    (line (pt 156.5433 13.0527) (pt 156.5433 24.0527) (width 0.7112) (netNameRef "Net 158") )
+    (line (pt 170.6933 29.0527) (pt 170.6933 40.0527) (width 0.7112) (netNameRef "Net 161") )
+    (line (pt 172.5433 40.0527) (pt 172.5433 29.0527) (width 0.7112) (netNameRef "Net 162") )
+    (line (pt 170.6933 45.0527) (pt 170.6933 56.0527) (width 0.7112) (netNameRef "Net 163") )
+    (line (pt 172.5433 56.0527) (pt 172.5433 45.0527) (width 0.7112) (netNameRef "Net 164") )
+    (line (pt 170.6933 72.0527) (pt 170.6933 61.0527) (width 0.7112) (netNameRef "Net 165") )
+    (line (pt 172.5433 61.0527) (pt 172.5433 72.0527) (width 0.7112) (netNameRef "Net 166") )
+    (line (pt 170.6933 77.0527) (pt 170.6933 88.0527) (width 0.7112) (netNameRef "Net 167") )
+    (line (pt 172.5433 88.0527) (pt 172.5433 77.0527) (width 0.7112) (netNameRef "Net 168") )
+    (line (pt 170.6933 93.0527) (pt 170.6933 104.0527) (width 0.7112) (netNameRef "Net 169") )
+    (line (pt 172.5433 104.0527) (pt 172.5433 93.0527) (width 0.7112) (netNameRef "Net 170") )
+    (line (pt 170.6933 109.0527) (pt 170.6933 120.0527) (width 0.7112) (netNameRef "Net 171") )
+    (line (pt 172.5433 120.0527) (pt 172.5433 109.0527) (width 0.7112) (netNameRef "Net 172") )
+    (line (pt 190.3933 93.0527) (pt 190.3933 104.0527) (width 0.7112) (netNameRef "Net 175") )
+    (line (pt 188.5433 93.0527) (pt 188.5433 104.0527) (width 0.7112) (netNameRef "Net 176") )
+    (line (pt 190.3933 77.0527) (pt 190.3933 88.0527) (width 0.7112) (netNameRef "Net 177") )
+    (line (pt 188.5433 88.0527) (pt 188.5433 77.0527) (width 0.7112) (netNameRef "Net 178") )
+    (line (pt 190.3933 72.0527) (pt 190.3933 61.0527) (width 0.7112) (netNameRef "Net 179") )
+    (line (pt 188.5433 61.0527) (pt 188.5433 72.0527) (width 0.7112) (netNameRef "Net 180") )
+    (line (pt 190.3933 45.0527) (pt 190.3933 56.0527) (width 0.7112) (netNameRef "Net 181") )
+    (line (pt 188.5433 56.0527) (pt 188.5433 45.0527) (width 0.7112) (netNameRef "Net 182") )
+    (line (pt 190.3933 40.0527) (pt 190.3933 29.0527) (width 0.7112) (netNameRef "Net 183") )
+    (line (pt 188.5433 29.0527) (pt 188.5433 40.0527) (width 0.7112) (netNameRef "Net 184") )
+    (line (pt 190.3933 24.0527) (pt 190.3933 13.0527) (width 0.7112) (netNameRef "Net 185") )
+    (line (pt 188.5433 13.0527) (pt 188.5433 24.0527) (width 0.7112) (netNameRef "Net 186") )
+    (line (pt 202.6933 29.0527) (pt 202.6933 40.0527) (width 0.7112) (netNameRef "Net 189") )
+    (line (pt 204.5433 40.0527) (pt 204.5433 29.0527) (width 0.7112) (netNameRef "Net 190") )
+    (line (pt 202.6933 56.0527) (pt 202.6933 45.0527) (width 0.7112) (netNameRef "Net 191") )
+    (line (pt 204.5433 45.0527) (pt 204.5433 56.0527) (width 0.7112) (netNameRef "Net 192") )
+    (line (pt 202.6933 61.0527) (pt 202.6933 72.0527) (width 0.7112) (netNameRef "Net 193") )
+    (line (pt 204.5433 72.0527) (pt 204.5433 61.0527) (width 0.7112) (netNameRef "Net 194") )
+    (line (pt 202.6933 88.0527) (pt 202.6933 77.0527) (width 0.7112) (netNameRef "Net 195") )
+    (line (pt 204.5433 77.0527) (pt 204.5433 88.0527) (width 0.7112) (netNameRef "Net 196") )
+    (line (pt 202.6933 93.0527) (pt 202.6933 104.0527) (width 0.7112) (netNameRef "Net 197") )
+    (line (pt 204.5433 104.0527) (pt 204.5433 93.0527) (width 0.7112) (netNameRef "Net 198") )
+    (line (pt 202.6933 109.0527) (pt 202.6933 120.0527) (width 0.7112) (netNameRef "Net 199") )
+    (line (pt 204.5433 120.0527) (pt 204.5433 109.0527) (width 0.7112) (netNameRef "Net 200") )
+    (line (pt 222.3933 93.0527) (pt 222.3933 104.0527) (width 0.7112) (netNameRef "Net 205") )
+    (line (pt 220.5433 104.0527) (pt 220.5433 93.0527) (width 0.7112) (netNameRef "Net 207") )
+    (line (pt 222.3933 77.0527) (pt 222.3933 88.0527) (width 0.7112) (netNameRef "Net 208") )
+    (line (pt 220.5433 88.0527) (pt 220.5433 77.0527) (width 0.7112) (netNameRef "Net 209") )
+    (line (pt 222.3933 61.0527) (pt 222.3933 72.0527) (width 0.7112) (netNameRef "Net 210") )
+    (line (pt 220.5433 72.0527) (pt 220.5433 61.0527) (width 0.7112) (netNameRef "Net 211") )
+    (line (pt 222.3933 56.0527) (pt 222.3933 45.0527) (width 0.7112) (netNameRef "Net 217") )
+    (line (pt 220.5433 45.0527) (pt 220.5433 56.0527) (width 0.7112) (netNameRef "Net 218") )
+    (line (pt 222.3933 29.0527) (pt 222.3933 40.0527) (width 0.7112) (netNameRef "Net 219") )
+    (line (pt 220.5433 29.0527) (pt 220.5433 40.0527) (width 0.7112) (netNameRef "Net 221") )
+    (line (pt 222.3933 13.0527) (pt 222.3933 24.0527) (width 0.7112) (netNameRef "Net 222") )
+    (line (pt 220.5433 24.0527) (pt 220.5433 13.0527) (width 0.7112) (netNameRef "Net 223") )
+    (line (pt 5.7933 9.2827) (pt 5.1683 9.2827) (width 0.7112) (netNameRef "Net 241") )
+    (line (pt 10.0433 10.5527) (pt 8.3729 10.5527) (width 0.7112) (netNameRef "Net 241") )
+    (line (pt 8.3729 10.5527) (pt 7.111 9.2908) (width 0.7112) (netNameRef "Net 241") )
+    (line (pt 7.111 9.2908) (pt 5.8014 9.2908) (width 0.7112) (netNameRef "Net 241") )
+    (line (pt 5.8014 9.2908) (pt 5.7933 9.2827) (width 0.7112) (netNameRef "Net 241") )
+    (line (pt 5.7933 11.8227) (pt 5.1683 11.8227) (width 0.7112) (netNameRef "Net 242") )
+    (line (pt 10.0433 12.4027) (pt 7.8579 12.4027) (width 0.7112) (netNameRef "Net 242") )
+    (line (pt 7.8579 12.4027) (pt 7.1565 11.7013) (width 0.7112) (netNameRef "Net 242") )
+    (line (pt 7.1565 11.7013) (pt 5.9147 11.7013) (width 0.7112) (netNameRef "Net 242") )
+    (line (pt 5.9147 11.7013) (pt 5.7933 11.8227) (width 0.7112) (netNameRef "Net 242") )
+  )
+  (layerContents (layerNumRef 7)
+    (text (pt 248.6896 161.6003) "Fyber Labs Inc."(textStyleRef "textstyle1")  (isFlipped True) (justify Center) (extent 488.2926 318.0952) )
+    (text (pt 305.0809 72.3171) "Rev 0.6"(textStyleRef "textstyle1")  (isFlipped True) (justify Center) (extent 601.0752 139.5289) )
+    (text (pt 266.0145 40.3659) "2015"(textStyleRef "textstyle1")  (isFlipped True) (justify Center) (extent 522.9425 75.6265) )
+    (text (pt 301.0059 128.2357) "Light Band"(textStyleRef "textstyle1")  (isFlipped True) (justify Center) (extent 592.9252 251.3659) )
+    (text (pt 298.4267 103.2075) "112 APAC102"(textStyleRef "textstyle1")  (isFlipped True) (justify Center) (extent 587.7669 201.3096) )
+    (text (pt 321.7994 32.092) "8x14"(textStyleRef "textstyle1")  (isFlipped True) (justify Center) (extent 634.5122 59.0785) )
+  )
+  (layerContents (layerNumRef 3)
+    (line (pt 4.5433 130.5527) (pt 228.5433 130.5527) (width 0.14) )
+    (line (pt 228.5433 130.5527) (pt 228.5433 2.5527) (width 0.14) )
+    (line (pt 228.5433 2.5527) (pt 4.5433 2.5527) (width 0.14) )
+    (line (pt 4.5433 2.5527) (pt 4.5433 130.5527) (width 0.14) )
+    (line (pt 4.5433 130.5527) (pt 4.5433 130.5527) (width 0.14) )
+  )
+)
